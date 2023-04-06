@@ -1,0 +1,2301 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="Microsoft SQL Server - FINALASS_FPOLYSHOP_FA22_SOF205__SOF2041@localhost">
+  <database-model serializer="dbm" dbms="MSSQL" family-id="MSSQL" format-version="4.20">
+    <root id="1">
+      <ServerVersion>15.0.2000</ServerVersion>
+      <PermissionsCheckSum>43840685535</PermissionsCheckSum>
+      <Grants>0|root||1|connect sql|G
+0|root||2|view any database|G
+0|root||101|view any definition|G
+0|root||102|authenticate server|G
+0|root||102|view any definition|G
+0|root||102|view server state|G
+0|root||103|authenticate server|G
+0|root||105|control server|G
+0|root||105|view any definition|G
+0|root||106|view any definition|G
+0|root||256|connect sql|G
+0|root||257|connect sql|G
+0|root||257|view any definition|G
+0|root||257|view server state|G
+0|root||258|connect sql|G
+0|root||259|connect sql|G
+0|root||260|connect sql|G
+0|root||261|connect sql|G
+0|root||262|connect sql|G
+0|root||263|alter any availability group|G
+0|root||263|connect sql|G
+0|root||263|view server state|G
+0|root||264|connect sql|G
+0|root||265|alter any event session|G
+0|root||265|connect any database|G
+0|root||265|connect sql|G
+0|root||265|view any definition|G
+0|root||265|view server state|G
+2|||2|connect|G
+3|||2|connect|G
+4|||2|connect|G
+5|||2|connect|G
+</Grants>
+    </root>
+    <database id="2" parent="1" name="FINALASS_FPOLYSHOP_FA22_SOF205__SOF2041">
+      <ObjectId>5</ObjectId>
+      <PermissionsCheckSum>3196235284</PermissionsCheckSum>
+      <Grants>5|database||0|view any column encryption key definition|G
+5|database||0|view any column master key definition|G
+5|database||1|connect|G
+</Grants>
+      <Current>1</Current>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+      <Fingerprint>5.45008/9B49A1A8-E9A8-4F40-9B21-1FE49903756B@HUNG</Fingerprint>
+    </database>
+    <database id="3" parent="1" name="Lop">
+      <ObjectId>6</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="4" parent="1" name="master">
+      <ObjectId>1</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="5" parent="1" name="model">
+      <ObjectId>3</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="6" parent="1" name="msdb">
+      <ObjectId>4</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <database id="7" parent="1" name="tempdb">
+      <ObjectId>2</ObjectId>
+      <Collation>SQL_Latin1_General_CP1_CI_AS</Collation>
+    </database>
+    <login id="8" parent="1" name="sa">
+      <ObjectId>1</ObjectId>
+      <Enabled>1</Enabled>
+      <DefaultDatabase>master</DefaultDatabase>
+    </login>
+    <login id="9" parent="1" name="public">
+      <ObjectId>2</ObjectId>
+      <Type>server-role</Type>
+      <Enabled>1</Enabled>
+    </login>
+    <login id="10" parent="1" name="sysadmin">
+      <ObjectId>3</ObjectId>
+      <Type>server-role</Type>
+      <Enabled>1</Enabled>
+    </login>
+    <login id="11" parent="1" name="securityadmin">
+      <ObjectId>4</ObjectId>
+      <Type>server-role</Type>
+      <Enabled>1</Enabled>
+    </login>
+    <login id="12" parent="1" name="serveradmin">
+      <ObjectId>5</ObjectId>
+      <Type>server-role</Type>
+      <Enabled>1</Enabled>
+    </login>
+    <login id="13" parent="1" name="setupadmin">
+      <ObjectId>6</ObjectId>
+      <Type>server-role</Type>
+      <Enabled>1</Enabled>
+    </login>
+    <login id="14" parent="1" name="processadmin">
+      <ObjectId>7</ObjectId>
+      <Type>server-role</Type>
+      <Enabled>1</Enabled>
+    </login>
+    <login id="15" parent="1" name="diskadmin">
+      <ObjectId>8</ObjectId>
+      <Type>server-role</Type>
+      <Enabled>1</Enabled>
+    </login>
+    <login id="16" parent="1" name="dbcreator">
+      <ObjectId>9</ObjectId>
+      <Type>server-role</Type>
+      <Enabled>1</Enabled>
+    </login>
+    <login id="17" parent="1" name="bulkadmin">
+      <ObjectId>10</ObjectId>
+      <Type>server-role</Type>
+      <Enabled>1</Enabled>
+    </login>
+    <login id="18" parent="1" name="##MS_SQLResourceSigningCertificate##">
+      <ObjectId>101</ObjectId>
+      <Type>certificate-mapped-login</Type>
+      <Enabled>1</Enabled>
+      <DefaultDatabase>master</DefaultDatabase>
+    </login>
+    <login id="19" parent="1" name="##MS_SQLReplicationSigningCertificate##">
+      <ObjectId>102</ObjectId>
+      <Type>certificate-mapped-login</Type>
+      <Enabled>1</Enabled>
+      <DefaultDatabase>master</DefaultDatabase>
+    </login>
+    <login id="20" parent="1" name="##MS_SQLAuthenticatorCertificate##">
+      <ObjectId>103</ObjectId>
+      <Type>certificate-mapped-login</Type>
+      <Enabled>1</Enabled>
+      <DefaultDatabase>master</DefaultDatabase>
+    </login>
+    <login id="21" parent="1" name="##MS_PolicySigningCertificate##">
+      <ObjectId>105</ObjectId>
+      <Type>certificate-mapped-login</Type>
+      <Enabled>1</Enabled>
+      <DefaultDatabase>master</DefaultDatabase>
+    </login>
+    <login id="22" parent="1" name="##MS_SmoExtendedSigningCertificate##">
+      <ObjectId>106</ObjectId>
+      <Type>certificate-mapped-login</Type>
+      <Enabled>1</Enabled>
+      <DefaultDatabase>master</DefaultDatabase>
+    </login>
+    <login id="23" parent="1" name="##MS_PolicyEventProcessingLogin##">
+      <ObjectId>256</ObjectId>
+      <DefaultDatabase>master</DefaultDatabase>
+    </login>
+    <login id="24" parent="1" name="##MS_PolicyTsqlExecutionLogin##">
+      <ObjectId>257</ObjectId>
+      <DefaultDatabase>master</DefaultDatabase>
+    </login>
+    <login id="25" parent="1" name="##MS_AgentSigningCertificate##">
+      <ObjectId>258</ObjectId>
+      <Type>certificate-mapped-login</Type>
+      <Enabled>1</Enabled>
+      <DefaultDatabase>master</DefaultDatabase>
+    </login>
+    <login id="26" parent="1" name="hung\buiti">
+      <ObjectId>259</ObjectId>
+      <Type>windows-login</Type>
+      <Enabled>1</Enabled>
+      <DefaultDatabase>master</DefaultDatabase>
+    </login>
+    <login id="27" parent="1" name="NT SERVICE\SQLWriter">
+      <ObjectId>260</ObjectId>
+      <Type>windows-login</Type>
+      <Enabled>1</Enabled>
+      <DefaultDatabase>master</DefaultDatabase>
+    </login>
+    <login id="28" parent="1" name="NT SERVICE\Winmgmt">
+      <ObjectId>261</ObjectId>
+      <Type>windows-login</Type>
+      <Enabled>1</Enabled>
+      <DefaultDatabase>master</DefaultDatabase>
+    </login>
+    <login id="29" parent="1" name="NT Service\MSSQLSERVER">
+      <ObjectId>262</ObjectId>
+      <Type>windows-login</Type>
+      <Enabled>1</Enabled>
+      <DefaultDatabase>master</DefaultDatabase>
+    </login>
+    <login id="30" parent="1" name="NT AUTHORITY\SYSTEM">
+      <ObjectId>263</ObjectId>
+      <Type>windows-login</Type>
+      <Enabled>1</Enabled>
+      <DefaultDatabase>master</DefaultDatabase>
+    </login>
+    <login id="31" parent="1" name="NT SERVICE\SQLSERVERAGENT">
+      <ObjectId>264</ObjectId>
+      <Type>windows-login</Type>
+      <Enabled>1</Enabled>
+      <DefaultDatabase>master</DefaultDatabase>
+    </login>
+    <login id="32" parent="1" name="NT SERVICE\SQLTELEMETRY">
+      <ObjectId>265</ObjectId>
+      <Type>windows-login</Type>
+      <Enabled>1</Enabled>
+      <DefaultDatabase>master</DefaultDatabase>
+    </login>
+    <schema id="33" parent="2" name="INFORMATION_SCHEMA">
+      <ObjectId>3</ObjectId>
+    </schema>
+    <schema id="34" parent="2" name="db_accessadmin">
+      <ObjectId>16385</ObjectId>
+    </schema>
+    <schema id="35" parent="2" name="db_backupoperator">
+      <ObjectId>16389</ObjectId>
+    </schema>
+    <schema id="36" parent="2" name="db_datareader">
+      <ObjectId>16390</ObjectId>
+    </schema>
+    <schema id="37" parent="2" name="db_datawriter">
+      <ObjectId>16391</ObjectId>
+    </schema>
+    <schema id="38" parent="2" name="db_ddladmin">
+      <ObjectId>16387</ObjectId>
+    </schema>
+    <schema id="39" parent="2" name="db_denydatareader">
+      <ObjectId>16392</ObjectId>
+    </schema>
+    <schema id="40" parent="2" name="db_denydatawriter">
+      <ObjectId>16393</ObjectId>
+    </schema>
+    <schema id="41" parent="2" name="db_owner">
+      <ObjectId>16384</ObjectId>
+    </schema>
+    <schema id="42" parent="2" name="db_securityadmin">
+      <ObjectId>16386</ObjectId>
+    </schema>
+    <schema id="43" parent="2" name="dbo">
+      <ObjectId>1</ObjectId>
+      <PermissionsCheckSum>16390059071</PermissionsCheckSum>
+      <Grants>1362103893|||0|execute|G
+1362103893|||2|execute|D
+1378103950|||0|execute|G
+1378103950|||2|execute|D
+1394104007|||0|execute|G
+1394104007|||2|execute|D
+1410104064|||0|execute|G
+1410104064|||2|execute|D
+1426104121|||0|execute|G
+1426104121|||2|execute|D
+1442104178|||0|execute|G
+1442104178|||2|execute|D
+1458104235|||0|execute|G
+1458104235|||2|execute|D
+</Grants>
+      <IntrospectionTimestamp>2023-03-29.19:23:03.120</IntrospectionTimestamp>
+      <Current>1</Current>
+      <DescriptionsCheckSum>5622850834</DescriptionsCheckSum>
+    </schema>
+    <schema id="44" parent="2" name="guest">
+      <ObjectId>2</ObjectId>
+    </schema>
+    <schema id="45" parent="2" name="sys">
+      <ObjectId>4</ObjectId>
+    </schema>
+    <role id="46" parent="2" name="public">
+      <ObjectId>0</ObjectId>
+      <OwnerId>1</OwnerId>
+      <Type>database-role</Type>
+      <AuthType>none</AuthType>
+    </role>
+    <role id="47" parent="2" name="dbo">
+      <ObjectId>1</ObjectId>
+      <DefaultSchema>dbo</DefaultSchema>
+      <AuthType>instance</AuthType>
+    </role>
+    <role id="48" parent="2" name="guest">
+      <ObjectId>2</ObjectId>
+      <DefaultSchema>guest</DefaultSchema>
+      <AuthType>none</AuthType>
+    </role>
+    <role id="49" parent="2" name="INFORMATION_SCHEMA">
+      <ObjectId>3</ObjectId>
+      <AuthType>none</AuthType>
+    </role>
+    <role id="50" parent="2" name="sys">
+      <ObjectId>4</ObjectId>
+      <AuthType>none</AuthType>
+    </role>
+    <role id="51" parent="2" name="db_owner">
+      <ObjectId>16384</ObjectId>
+      <OwnerId>1</OwnerId>
+      <Type>database-role</Type>
+      <AuthType>none</AuthType>
+    </role>
+    <role id="52" parent="2" name="db_accessadmin">
+      <ObjectId>16385</ObjectId>
+      <OwnerId>1</OwnerId>
+      <Type>database-role</Type>
+      <AuthType>none</AuthType>
+    </role>
+    <role id="53" parent="2" name="db_securityadmin">
+      <ObjectId>16386</ObjectId>
+      <OwnerId>1</OwnerId>
+      <Type>database-role</Type>
+      <AuthType>none</AuthType>
+    </role>
+    <role id="54" parent="2" name="db_ddladmin">
+      <ObjectId>16387</ObjectId>
+      <OwnerId>1</OwnerId>
+      <Type>database-role</Type>
+      <AuthType>none</AuthType>
+    </role>
+    <role id="55" parent="2" name="db_backupoperator">
+      <ObjectId>16389</ObjectId>
+      <OwnerId>1</OwnerId>
+      <Type>database-role</Type>
+      <AuthType>none</AuthType>
+    </role>
+    <role id="56" parent="2" name="db_datareader">
+      <ObjectId>16390</ObjectId>
+      <OwnerId>1</OwnerId>
+      <Type>database-role</Type>
+      <AuthType>none</AuthType>
+    </role>
+    <role id="57" parent="2" name="db_datawriter">
+      <ObjectId>16391</ObjectId>
+      <OwnerId>1</OwnerId>
+      <Type>database-role</Type>
+      <AuthType>none</AuthType>
+    </role>
+    <role id="58" parent="2" name="db_denydatareader">
+      <ObjectId>16392</ObjectId>
+      <OwnerId>1</OwnerId>
+      <Type>database-role</Type>
+      <AuthType>none</AuthType>
+    </role>
+    <role id="59" parent="2" name="db_denydatawriter">
+      <ObjectId>16393</ObjectId>
+      <OwnerId>1</OwnerId>
+      <Type>database-role</Type>
+      <AuthType>none</AuthType>
+    </role>
+    <table id="60" parent="43" name="ChiTietSP">
+      <ObjectId>1797581442</ObjectId>
+      <CreatedTimestamp>2023-03-24.21:38:57.263</CreatedTimestamp>
+      <ModifiedTimestamp>2023-03-24.21:40:08.880</ModifiedTimestamp>
+    </table>
+    <table id="61" parent="43" name="ChucVu">
+      <ObjectId>581577110</ObjectId>
+      <CreatedTimestamp>2023-03-24.21:38:57.213</CreatedTimestamp>
+      <ModifiedTimestamp>2023-03-24.21:40:08.863</ModifiedTimestamp>
+    </table>
+    <table id="62" parent="43" name="CuaHang">
+      <ObjectId>661577395</ObjectId>
+      <CreatedTimestamp>2023-03-24.21:38:57.220</CreatedTimestamp>
+      <ModifiedTimestamp>2023-03-24.21:40:08.860</ModifiedTimestamp>
+    </table>
+    <table id="63" parent="43" name="DongSP">
+      <ObjectId>1733581214</ObjectId>
+      <CreatedTimestamp>2023-03-24.21:38:57.260</CreatedTimestamp>
+      <ModifiedTimestamp>2023-03-24.21:40:08.877</ModifiedTimestamp>
+    </table>
+    <table id="64" parent="43" name="GioHang">
+      <ObjectId>1381579960</ObjectId>
+      <CreatedTimestamp>2023-03-24.21:38:57.243</CreatedTimestamp>
+      <ModifiedTimestamp>2023-03-24.21:40:08.867</ModifiedTimestamp>
+    </table>
+    <table id="65" parent="43" name="GioHangChiTiet">
+      <ObjectId>1989582126</ObjectId>
+      <CreatedTimestamp>2023-03-24.21:38:57.273</CreatedTimestamp>
+      <ModifiedTimestamp>2023-03-24.21:38:57.273</ModifiedTimestamp>
+    </table>
+    <table id="66" parent="43" name="HoaDon">
+      <ObjectId>1189579276</ObjectId>
+      <CreatedTimestamp>2023-03-24.21:38:57.240</CreatedTimestamp>
+      <ModifiedTimestamp>2023-03-24.21:40:08.870</ModifiedTimestamp>
+    </table>
+    <table id="67" parent="43" name="HoaDonChiTiet">
+      <ObjectId>1909581841</ObjectId>
+      <CreatedTimestamp>2023-03-24.21:38:57.270</CreatedTimestamp>
+      <ModifiedTimestamp>2023-03-24.21:38:57.270</ModifiedTimestamp>
+    </table>
+    <table id="68" parent="43" name="KhachHang">
+      <ObjectId>997578592</ObjectId>
+      <CreatedTimestamp>2023-03-24.21:38:57.230</CreatedTimestamp>
+      <ModifiedTimestamp>2023-03-24.21:40:08.870</ModifiedTimestamp>
+    </table>
+    <table id="69" parent="43" name="MauSac">
+      <ObjectId>1669580986</ObjectId>
+      <CreatedTimestamp>2023-03-24.21:38:57.257</CreatedTimestamp>
+      <ModifiedTimestamp>2023-03-24.21:40:08.877</ModifiedTimestamp>
+    </table>
+    <table id="70" parent="43" name="NSX">
+      <ObjectId>1605580758</ObjectId>
+      <CreatedTimestamp>2023-03-24.21:38:57.253</CreatedTimestamp>
+      <ModifiedTimestamp>2023-03-24.21:40:08.873</ModifiedTimestamp>
+    </table>
+    <table id="71" parent="43" name="NhanVien">
+      <ObjectId>789577851</ObjectId>
+      <CreatedTimestamp>2023-03-24.21:38:57.223</CreatedTimestamp>
+      <ModifiedTimestamp>2023-03-24.21:40:08.870</ModifiedTimestamp>
+    </table>
+    <table id="72" parent="43" name="SanPham">
+      <ObjectId>1541580530</ObjectId>
+      <CreatedTimestamp>2023-03-24.21:38:57.250</CreatedTimestamp>
+      <ModifiedTimestamp>2023-03-24.21:40:08.873</ModifiedTimestamp>
+    </table>
+    <table id="73" parent="43" name="sysdiagrams">
+      <ObjectId>1314103722</ObjectId>
+      <ExtendedProperties>microsoft_database_tools_support
+1
+int</ExtendedProperties>
+      <CreatedTimestamp>2023-03-24.23:03:47.397</CreatedTimestamp>
+      <ModifiedTimestamp>2023-03-24.23:03:47.397</ModifiedTimestamp>
+    </table>
+    <routine id="74" parent="43" name="fn_diagramobjects">
+      <ObjectId>1458104235</ObjectId>
+      <SourceTextLength>1647</SourceTextLength>
+      <ExtendedProperties>microsoft_database_tools_support
+1
+int</ExtendedProperties>
+      <CreatedTimestamp>2023-03-24.23:03:47.430</CreatedTimestamp>
+      <ModifiedTimestamp>2023-03-24.23:03:47.430</ModifiedTimestamp>
+      <RoutineType>scalar-fun</RoutineType>
+    </routine>
+    <routine id="75" parent="43" name="sp_alterdiagram">
+      <ObjectId>1426104121</ObjectId>
+      <SourceTextLength>1501</SourceTextLength>
+      <ExtendedProperties>microsoft_database_tools_support
+1
+int</ExtendedProperties>
+      <CreatedTimestamp>2023-03-24.23:03:47.427</CreatedTimestamp>
+      <ModifiedTimestamp>2023-03-24.23:03:47.427</ModifiedTimestamp>
+      <RoutineType>proc</RoutineType>
+    </routine>
+    <routine id="76" parent="43" name="sp_creatediagram">
+      <ObjectId>1394104007</ObjectId>
+      <SourceTextLength>1223</SourceTextLength>
+      <ExtendedProperties>microsoft_database_tools_support
+1
+int</ExtendedProperties>
+      <CreatedTimestamp>2023-03-24.23:03:47.417</CreatedTimestamp>
+      <ModifiedTimestamp>2023-03-24.23:03:47.417</ModifiedTimestamp>
+      <RoutineType>proc</RoutineType>
+    </routine>
+    <routine id="77" parent="43" name="sp_dropdiagram">
+      <ObjectId>1442104178</ObjectId>
+      <SourceTextLength>896</SourceTextLength>
+      <ExtendedProperties>microsoft_database_tools_support
+1
+int</ExtendedProperties>
+      <CreatedTimestamp>2023-03-24.23:03:47.430</CreatedTimestamp>
+      <ModifiedTimestamp>2023-03-24.23:03:47.430</ModifiedTimestamp>
+      <RoutineType>proc</RoutineType>
+    </routine>
+    <routine id="78" parent="43" name="sp_helpdiagramdefinition">
+      <ObjectId>1378103950</ObjectId>
+      <SourceTextLength>921</SourceTextLength>
+      <ExtendedProperties>microsoft_database_tools_support
+1
+int</ExtendedProperties>
+      <CreatedTimestamp>2023-03-24.23:03:47.413</CreatedTimestamp>
+      <ModifiedTimestamp>2023-03-24.23:03:47.413</ModifiedTimestamp>
+      <RoutineType>proc</RoutineType>
+    </routine>
+    <routine id="79" parent="43" name="sp_helpdiagrams">
+      <ObjectId>1362103893</ObjectId>
+      <SourceTextLength>658</SourceTextLength>
+      <ExtendedProperties>microsoft_database_tools_support
+1
+int</ExtendedProperties>
+      <CreatedTimestamp>2023-03-24.23:03:47.410</CreatedTimestamp>
+      <ModifiedTimestamp>2023-03-24.23:03:47.410</ModifiedTimestamp>
+      <RoutineType>proc</RoutineType>
+    </routine>
+    <routine id="80" parent="43" name="sp_renamediagram">
+      <ObjectId>1410104064</ObjectId>
+      <SourceTextLength>1721</SourceTextLength>
+      <ExtendedProperties>microsoft_database_tools_support
+1
+int</ExtendedProperties>
+      <CreatedTimestamp>2023-03-24.23:03:47.423</CreatedTimestamp>
+      <ModifiedTimestamp>2023-03-24.23:03:47.423</ModifiedTimestamp>
+      <RoutineType>proc</RoutineType>
+    </routine>
+    <routine id="81" parent="43" name="sp_upgraddiagrams">
+      <ObjectId>1298103665</ObjectId>
+      <SourceTextLength>1463</SourceTextLength>
+      <ExtendedProperties>microsoft_database_tools_support
+1
+int</ExtendedProperties>
+      <CreatedTimestamp>2023-03-24.23:03:47.387</CreatedTimestamp>
+      <ModifiedTimestamp>2023-03-24.23:03:47.387</ModifiedTimestamp>
+      <RoutineType>proc</RoutineType>
+    </routine>
+    <column id="82" parent="60" name="Id">
+      <Position>1</Position>
+      <DefaultConstraintName>DF__ChiTietSP__Id__6D0D32F4</DefaultConstraintName>
+      <DefaultExpression>newid()</DefaultExpression>
+      <DataType>uniqueidentifier|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="83" parent="60" name="IdSP">
+      <Position>2</Position>
+      <DataType>uniqueidentifier|0s</DataType>
+    </column>
+    <column id="84" parent="60" name="IdNsx">
+      <Position>3</Position>
+      <DataType>uniqueidentifier|0s</DataType>
+    </column>
+    <column id="85" parent="60" name="IdMauSac">
+      <Position>4</Position>
+      <DataType>uniqueidentifier|0s</DataType>
+    </column>
+    <column id="86" parent="60" name="IdDongSP">
+      <Position>5</Position>
+      <DataType>uniqueidentifier|0s</DataType>
+    </column>
+    <column id="87" parent="60" name="NamBH">
+      <Position>6</Position>
+      <DefaultConstraintName>DF__ChiTietSP__NamBH__6E01572D</DefaultConstraintName>
+      <DefaultExpression>NULL</DefaultExpression>
+      <DataType>int|0s</DataType>
+    </column>
+    <column id="88" parent="60" name="MoTa">
+      <Position>7</Position>
+      <DefaultConstraintName>DF__ChiTietSP__MoTa__6EF57B66</DefaultConstraintName>
+      <DefaultExpression>NULL</DefaultExpression>
+      <DataType>nvarchar(50 char)|0s</DataType>
+    </column>
+    <column id="89" parent="60" name="SoLuongTon">
+      <Position>8</Position>
+      <DataType>int|0s</DataType>
+    </column>
+    <column id="90" parent="60" name="GiaNhap">
+      <Position>9</Position>
+      <DefaultConstraintName>DF__ChiTietSP__GiaNh__6FE99F9F</DefaultConstraintName>
+      <DefaultExpression>0</DefaultExpression>
+      <DataType>decimal(20)|0s</DataType>
+    </column>
+    <column id="91" parent="60" name="GiaBan">
+      <Position>10</Position>
+      <DefaultConstraintName>DF__ChiTietSP__GiaBa__70DDC3D8</DefaultConstraintName>
+      <DefaultExpression>0</DefaultExpression>
+      <DataType>decimal(20)|0s</DataType>
+    </column>
+    <index id="92" parent="60" name="PK__ChiTietS__3214EC07AB0B7611">
+      <Position>1</Position>
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>Id</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="93" parent="60" name="PK__ChiTietS__3214EC07AB0B7611">
+      <ObjectId>1813581499</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2023-03-24.21:38:57.267</CreatedTimestamp>
+      <ModifiedTimestamp>2023-03-24.21:38:57.267</ModifiedTimestamp>
+      <ColNames>Id</ColNames>
+      <UnderlyingIndexName>PK__ChiTietS__3214EC07AB0B7611</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="94" parent="60" name="FK__ChiTietSP__IdSP__02084FDA">
+      <ObjectId>34099162</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2023-03-24.21:38:57.290</CreatedTimestamp>
+      <ModifiedTimestamp>2023-03-24.21:38:57.290</ModifiedTimestamp>
+      <ColNames>IdSP</ColNames>
+      <RefTableId>1541580530</RefTableId>
+      <RefTableName>SanPham</RefTableName>
+      <RefKeyName>PK__SanPham__3214EC0724280912</RefKeyName>
+      <RefColNames>Id</RefColNames>
+    </foreign-key>
+    <foreign-key id="95" parent="60" name="FK__ChiTietSP__IdSP__17F790F9">
+      <ObjectId>402100473</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2023-03-24.21:39:04.193</CreatedTimestamp>
+      <ModifiedTimestamp>2023-03-24.21:39:04.193</ModifiedTimestamp>
+      <ColNames>IdSP</ColNames>
+      <RefTableId>1541580530</RefTableId>
+      <RefTableName>SanPham</RefTableName>
+      <RefKeyName>PK__SanPham__3214EC0724280912</RefKeyName>
+      <RefColNames>Id</RefColNames>
+    </foreign-key>
+    <foreign-key id="96" parent="60" name="FK__ChiTietSP__IdSP__2DE6D218">
+      <ObjectId>770101784</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2023-03-24.21:39:31.320</CreatedTimestamp>
+      <ModifiedTimestamp>2023-03-24.21:39:31.320</ModifiedTimestamp>
+      <ColNames>IdSP</ColNames>
+      <RefTableId>1541580530</RefTableId>
+      <RefTableName>SanPham</RefTableName>
+      <RefKeyName>PK__SanPham__3214EC0724280912</RefKeyName>
+      <RefColNames>Id</RefColNames>
+    </foreign-key>
+    <foreign-key id="97" parent="60" name="FK__ChiTietSP__IdSP__43D61337">
+      <ObjectId>1138103095</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2023-03-24.21:40:08.870</CreatedTimestamp>
+      <ModifiedTimestamp>2023-03-24.21:40:08.870</ModifiedTimestamp>
+      <ColNames>IdSP</ColNames>
+      <RefTableId>1541580530</RefTableId>
+      <RefTableName>SanPham</RefTableName>
+      <RefKeyName>PK__SanPham__3214EC0724280912</RefKeyName>
+      <RefColNames>Id</RefColNames>
+    </foreign-key>
+    <foreign-key id="98" parent="60" name="FK__ChiTietSP__IdNsx__02FC7413">
+      <ObjectId>50099219</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2023-03-24.21:38:57.290</CreatedTimestamp>
+      <ModifiedTimestamp>2023-03-24.21:38:57.290</ModifiedTimestamp>
+      <ColNames>IdNsx</ColNames>
+      <RefTableId>1605580758</RefTableId>
+      <RefTableName>NSX</RefTableName>
+      <RefKeyName>PK__NSX__3214EC078482A425</RefKeyName>
+      <RefColNames>Id</RefColNames>
+    </foreign-key>
+    <foreign-key id="99" parent="60" name="FK__ChiTietSP__IdNsx__18EBB532">
+      <ObjectId>418100530</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2023-03-24.21:39:04.193</CreatedTimestamp>
+      <ModifiedTimestamp>2023-03-24.21:39:04.193</ModifiedTimestamp>
+      <ColNames>IdNsx</ColNames>
+      <RefTableId>1605580758</RefTableId>
+      <RefTableName>NSX</RefTableName>
+      <RefKeyName>PK__NSX__3214EC078482A425</RefKeyName>
+      <RefColNames>Id</RefColNames>
+    </foreign-key>
+    <foreign-key id="100" parent="60" name="FK__ChiTietSP__IdNsx__2EDAF651">
+      <ObjectId>786101841</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2023-03-24.21:39:31.320</CreatedTimestamp>
+      <ModifiedTimestamp>2023-03-24.21:39:31.320</ModifiedTimestamp>
+      <ColNames>IdNsx</ColNames>
+      <RefTableId>1605580758</RefTableId>
+      <RefTableName>NSX</RefTableName>
+      <RefKeyName>PK__NSX__3214EC078482A425</RefKeyName>
+      <RefColNames>Id</RefColNames>
+    </foreign-key>
+    <foreign-key id="101" parent="60" name="FK__ChiTietSP__IdNsx__44CA3770">
+      <ObjectId>1154103152</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2023-03-24.21:40:08.873</CreatedTimestamp>
+      <ModifiedTimestamp>2023-03-24.21:40:08.873</ModifiedTimestamp>
+      <ColNames>IdNsx</ColNames>
+      <RefTableId>1605580758</RefTableId>
+      <RefTableName>NSX</RefTableName>
+      <RefKeyName>PK__NSX__3214EC078482A425</RefKeyName>
+      <RefColNames>Id</RefColNames>
+    </foreign-key>
+    <foreign-key id="102" parent="60" name="FK__ChiTietSP__IdMau__03F0984C">
+      <ObjectId>66099276</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2023-03-24.21:38:57.293</CreatedTimestamp>
+      <ModifiedTimestamp>2023-03-24.21:38:57.293</ModifiedTimestamp>
+      <ColNames>IdMauSac</ColNames>
+      <RefTableId>1669580986</RefTableId>
+      <RefTableName>MauSac</RefTableName>
+      <RefKeyName>PK__MauSac__3214EC075ECC54B3</RefKeyName>
+      <RefColNames>Id</RefColNames>
+    </foreign-key>
+    <foreign-key id="103" parent="60" name="FK__ChiTietSP__IdMau__19DFD96B">
+      <ObjectId>434100587</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2023-03-24.21:39:04.197</CreatedTimestamp>
+      <ModifiedTimestamp>2023-03-24.21:39:04.197</ModifiedTimestamp>
+      <ColNames>IdMauSac</ColNames>
+      <RefTableId>1669580986</RefTableId>
+      <RefTableName>MauSac</RefTableName>
+      <RefKeyName>PK__MauSac__3214EC075ECC54B3</RefKeyName>
+      <RefColNames>Id</RefColNames>
+    </foreign-key>
+    <foreign-key id="104" parent="60" name="FK__ChiTietSP__IdMau__2FCF1A8A">
+      <ObjectId>802101898</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2023-03-24.21:39:31.323</CreatedTimestamp>
+      <ModifiedTimestamp>2023-03-24.21:39:31.323</ModifiedTimestamp>
+      <ColNames>IdMauSac</ColNames>
+      <RefTableId>1669580986</RefTableId>
+      <RefTableName>MauSac</RefTableName>
+      <RefKeyName>PK__MauSac__3214EC075ECC54B3</RefKeyName>
+      <RefColNames>Id</RefColNames>
+    </foreign-key>
+    <foreign-key id="105" parent="60" name="FK__ChiTietSP__IdMau__45BE5BA9">
+      <ObjectId>1170103209</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2023-03-24.21:40:08.873</CreatedTimestamp>
+      <ModifiedTimestamp>2023-03-24.21:40:08.873</ModifiedTimestamp>
+      <ColNames>IdMauSac</ColNames>
+      <RefTableId>1669580986</RefTableId>
+      <RefTableName>MauSac</RefTableName>
+      <RefKeyName>PK__MauSac__3214EC075ECC54B3</RefKeyName>
+      <RefColNames>Id</RefColNames>
+    </foreign-key>
+    <foreign-key id="106" parent="60" name="FK__ChiTietSP__IdDon__04E4BC85">
+      <ObjectId>82099333</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2023-03-24.21:38:57.297</CreatedTimestamp>
+      <ModifiedTimestamp>2023-03-24.21:38:57.297</ModifiedTimestamp>
+      <ColNames>IdDongSP</ColNames>
+      <RefTableId>1733581214</RefTableId>
+      <RefTableName>DongSP</RefTableName>
+      <RefKeyName>PK__DongSP__3214EC072793ECC2</RefKeyName>
+      <RefColNames>Id</RefColNames>
+    </foreign-key>
+    <foreign-key id="107" parent="60" name="FK__ChiTietSP__IdDon__1AD3FDA4">
+      <ObjectId>450100644</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2023-03-24.21:39:04.197</CreatedTimestamp>
+      <ModifiedTimestamp>2023-03-24.21:39:04.197</ModifiedTimestamp>
+      <ColNames>IdDongSP</ColNames>
+      <RefTableId>1733581214</RefTableId>
+      <RefTableName>DongSP</RefTableName>
+      <RefKeyName>PK__DongSP__3214EC072793ECC2</RefKeyName>
+      <RefColNames>Id</RefColNames>
+    </foreign-key>
+    <foreign-key id="108" parent="60" name="FK__ChiTietSP__IdDon__30C33EC3">
+      <ObjectId>818101955</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2023-03-24.21:39:31.323</CreatedTimestamp>
+      <ModifiedTimestamp>2023-03-24.21:39:31.323</ModifiedTimestamp>
+      <ColNames>IdDongSP</ColNames>
+      <RefTableId>1733581214</RefTableId>
+      <RefTableName>DongSP</RefTableName>
+      <RefKeyName>PK__DongSP__3214EC072793ECC2</RefKeyName>
+      <RefColNames>Id</RefColNames>
+    </foreign-key>
+    <foreign-key id="109" parent="60" name="FK__ChiTietSP__IdDon__46B27FE2">
+      <ObjectId>1186103266</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2023-03-24.21:40:08.877</CreatedTimestamp>
+      <ModifiedTimestamp>2023-03-24.21:40:08.877</ModifiedTimestamp>
+      <ColNames>IdDongSP</ColNames>
+      <RefTableId>1733581214</RefTableId>
+      <RefTableName>DongSP</RefTableName>
+      <RefKeyName>PK__DongSP__3214EC072793ECC2</RefKeyName>
+      <RefColNames>Id</RefColNames>
+    </foreign-key>
+    <default id="110" parent="60" name="DF__ChiTietSP__Id__6D0D32F4">
+      <ObjectId>1829581556</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2023-03-24.21:38:57.267</ModifiedTimestamp>
+      <ColNames>Id</ColNames>
+      <DefaultExpression>newid()</DefaultExpression>
+    </default>
+    <default id="111" parent="60" name="DF__ChiTietSP__NamBH__6E01572D">
+      <ObjectId>1845581613</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2023-03-24.21:38:57.267</ModifiedTimestamp>
+      <ColNames>NamBH</ColNames>
+      <DefaultExpression>NULL</DefaultExpression>
+    </default>
+    <default id="112" parent="60" name="DF__ChiTietSP__MoTa__6EF57B66">
+      <ObjectId>1861581670</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2023-03-24.21:38:57.267</ModifiedTimestamp>
+      <ColNames>MoTa</ColNames>
+      <DefaultExpression>NULL</DefaultExpression>
+    </default>
+    <default id="113" parent="60" name="DF__ChiTietSP__GiaNh__6FE99F9F">
+      <ObjectId>1877581727</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2023-03-24.21:38:57.267</ModifiedTimestamp>
+      <ColNames>GiaNhap</ColNames>
+      <DefaultExpression>0</DefaultExpression>
+    </default>
+    <default id="114" parent="60" name="DF__ChiTietSP__GiaBa__70DDC3D8">
+      <ObjectId>1893581784</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2023-03-24.21:38:57.267</ModifiedTimestamp>
+      <ColNames>GiaBan</ColNames>
+      <DefaultExpression>0</DefaultExpression>
+    </default>
+    <column id="115" parent="61" name="Id">
+      <Position>1</Position>
+      <DefaultConstraintName>DF__ChucVu__Id__25869641</DefaultConstraintName>
+      <DefaultExpression>newid()</DefaultExpression>
+      <DataType>uniqueidentifier|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="116" parent="61" name="Ma">
+      <Position>2</Position>
+      <DataType>varchar(20 char)|0s</DataType>
+    </column>
+    <column id="117" parent="61" name="Ten">
+      <Position>3</Position>
+      <DefaultConstraintName>DF__ChucVu__Ten__267ABA7A</DefaultConstraintName>
+      <DefaultExpression>NULL</DefaultExpression>
+      <DataType>nvarchar(50 char)|0s</DataType>
+    </column>
+    <index id="118" parent="61" name="PK__ChucVu__3214EC07D6F80707">
+      <Position>1</Position>
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>Id</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <index id="119" parent="61" name="UQ__ChucVu__3214CC9E1BF22793">
+      <Position>2</Position>
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>Ma</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="120" parent="61" name="PK__ChucVu__3214EC07D6F80707">
+      <ObjectId>597577167</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2023-03-24.21:38:57.213</CreatedTimestamp>
+      <ModifiedTimestamp>2023-03-24.21:38:57.213</ModifiedTimestamp>
+      <ColNames>Id</ColNames>
+      <UnderlyingIndexName>PK__ChucVu__3214EC07D6F80707</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <key id="121" parent="61" name="UQ__ChucVu__3214CC9E1BF22793">
+      <ObjectId>613577224</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2023-03-24.21:38:57.217</CreatedTimestamp>
+      <ModifiedTimestamp>2023-03-24.21:38:57.217</ModifiedTimestamp>
+      <ColNames>Ma</ColNames>
+      <UnderlyingIndexName>UQ__ChucVu__3214CC9E1BF22793</UnderlyingIndexName>
+    </key>
+    <default id="122" parent="61" name="DF__ChucVu__Id__25869641">
+      <ObjectId>629577281</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2023-03-24.21:38:57.217</ModifiedTimestamp>
+      <ColNames>Id</ColNames>
+      <DefaultExpression>newid()</DefaultExpression>
+    </default>
+    <default id="123" parent="61" name="DF__ChucVu__Ten__267ABA7A">
+      <ObjectId>645577338</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2023-03-24.21:38:57.217</ModifiedTimestamp>
+      <ColNames>Ten</ColNames>
+      <DefaultExpression>NULL</DefaultExpression>
+    </default>
+    <column id="124" parent="62" name="Id">
+      <Position>1</Position>
+      <DefaultConstraintName>DF__CuaHang__Id__2A4B4B5E</DefaultConstraintName>
+      <DefaultExpression>newid()</DefaultExpression>
+      <DataType>uniqueidentifier|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="125" parent="62" name="Ma">
+      <Position>2</Position>
+      <DataType>varchar(20 char)|0s</DataType>
+    </column>
+    <column id="126" parent="62" name="Ten">
+      <Position>3</Position>
+      <DefaultConstraintName>DF__CuaHang__Ten__2B3F6F97</DefaultConstraintName>
+      <DefaultExpression>NULL</DefaultExpression>
+      <DataType>nvarchar(50 char)|0s</DataType>
+    </column>
+    <column id="127" parent="62" name="DiaChi">
+      <Position>4</Position>
+      <DefaultConstraintName>DF__CuaHang__DiaChi__2C3393D0</DefaultConstraintName>
+      <DefaultExpression>NULL</DefaultExpression>
+      <DataType>nvarchar(100 char)|0s</DataType>
+    </column>
+    <column id="128" parent="62" name="ThanhPho">
+      <Position>5</Position>
+      <DefaultConstraintName>DF__CuaHang__ThanhPh__2D27B809</DefaultConstraintName>
+      <DefaultExpression>NULL</DefaultExpression>
+      <DataType>nvarchar(50 char)|0s</DataType>
+    </column>
+    <column id="129" parent="62" name="QuocGia">
+      <Position>6</Position>
+      <DefaultConstraintName>DF__CuaHang__QuocGia__2E1BDC42</DefaultConstraintName>
+      <DefaultExpression>NULL</DefaultExpression>
+      <DataType>nvarchar(50 char)|0s</DataType>
+    </column>
+    <index id="130" parent="62" name="PK__CuaHang__3214EC0720607B0C">
+      <Position>1</Position>
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>Id</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <index id="131" parent="62" name="UQ__CuaHang__3214CC9EB139811F">
+      <Position>2</Position>
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>Ma</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="132" parent="62" name="PK__CuaHang__3214EC0720607B0C">
+      <ObjectId>677577452</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2023-03-24.21:38:57.220</CreatedTimestamp>
+      <ModifiedTimestamp>2023-03-24.21:38:57.220</ModifiedTimestamp>
+      <ColNames>Id</ColNames>
+      <UnderlyingIndexName>PK__CuaHang__3214EC0720607B0C</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <key id="133" parent="62" name="UQ__CuaHang__3214CC9EB139811F">
+      <ObjectId>693577509</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2023-03-24.21:38:57.220</CreatedTimestamp>
+      <ModifiedTimestamp>2023-03-24.21:38:57.220</ModifiedTimestamp>
+      <ColNames>Ma</ColNames>
+      <UnderlyingIndexName>UQ__CuaHang__3214CC9EB139811F</UnderlyingIndexName>
+    </key>
+    <default id="134" parent="62" name="DF__CuaHang__Id__2A4B4B5E">
+      <ObjectId>709577566</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2023-03-24.21:38:57.220</ModifiedTimestamp>
+      <ColNames>Id</ColNames>
+      <DefaultExpression>newid()</DefaultExpression>
+    </default>
+    <default id="135" parent="62" name="DF__CuaHang__Ten__2B3F6F97">
+      <ObjectId>725577623</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2023-03-24.21:38:57.220</ModifiedTimestamp>
+      <ColNames>Ten</ColNames>
+      <DefaultExpression>NULL</DefaultExpression>
+    </default>
+    <default id="136" parent="62" name="DF__CuaHang__DiaChi__2C3393D0">
+      <ObjectId>741577680</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2023-03-24.21:38:57.220</ModifiedTimestamp>
+      <ColNames>DiaChi</ColNames>
+      <DefaultExpression>NULL</DefaultExpression>
+    </default>
+    <default id="137" parent="62" name="DF__CuaHang__ThanhPh__2D27B809">
+      <ObjectId>757577737</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2023-03-24.21:38:57.220</ModifiedTimestamp>
+      <ColNames>ThanhPho</ColNames>
+      <DefaultExpression>NULL</DefaultExpression>
+    </default>
+    <default id="138" parent="62" name="DF__CuaHang__QuocGia__2E1BDC42">
+      <ObjectId>773577794</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2023-03-24.21:38:57.220</ModifiedTimestamp>
+      <ColNames>QuocGia</ColNames>
+      <DefaultExpression>NULL</DefaultExpression>
+    </default>
+    <column id="139" parent="63" name="Id">
+      <Position>1</Position>
+      <DefaultConstraintName>DF__DongSP__Id__6A30C649</DefaultConstraintName>
+      <DefaultExpression>newid()</DefaultExpression>
+      <DataType>uniqueidentifier|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="140" parent="63" name="Ma">
+      <Position>2</Position>
+      <DataType>varchar(20 char)|0s</DataType>
+    </column>
+    <column id="141" parent="63" name="Ten">
+      <Position>3</Position>
+      <DataType>nvarchar(30 char)|0s</DataType>
+    </column>
+    <index id="142" parent="63" name="PK__DongSP__3214EC072793ECC2">
+      <Position>1</Position>
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>Id</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <index id="143" parent="63" name="UQ__DongSP__3214CC9ED1FAE4CB">
+      <Position>2</Position>
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>Ma</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="144" parent="63" name="PK__DongSP__3214EC072793ECC2">
+      <ObjectId>1749581271</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2023-03-24.21:38:57.260</CreatedTimestamp>
+      <ModifiedTimestamp>2023-03-24.21:38:57.260</ModifiedTimestamp>
+      <ColNames>Id</ColNames>
+      <UnderlyingIndexName>PK__DongSP__3214EC072793ECC2</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <key id="145" parent="63" name="UQ__DongSP__3214CC9ED1FAE4CB">
+      <ObjectId>1765581328</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2023-03-24.21:38:57.260</CreatedTimestamp>
+      <ModifiedTimestamp>2023-03-24.21:38:57.260</ModifiedTimestamp>
+      <ColNames>Ma</ColNames>
+      <UnderlyingIndexName>UQ__DongSP__3214CC9ED1FAE4CB</UnderlyingIndexName>
+    </key>
+    <default id="146" parent="63" name="DF__DongSP__Id__6A30C649">
+      <ObjectId>1781581385</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2023-03-24.21:38:57.263</ModifiedTimestamp>
+      <ColNames>Id</ColNames>
+      <DefaultExpression>newid()</DefaultExpression>
+    </default>
+    <column id="147" parent="64" name="Id">
+      <Position>1</Position>
+      <DefaultConstraintName>DF__GioHang__Id__5535A963</DefaultConstraintName>
+      <DefaultExpression>newid()</DefaultExpression>
+      <DataType>uniqueidentifier|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="148" parent="64" name="IdKH">
+      <Position>2</Position>
+      <DataType>uniqueidentifier|0s</DataType>
+    </column>
+    <column id="149" parent="64" name="IdNV">
+      <Position>3</Position>
+      <DataType>uniqueidentifier|0s</DataType>
+    </column>
+    <column id="150" parent="64" name="Ma">
+      <Position>4</Position>
+      <DataType>varchar(20 char)|0s</DataType>
+    </column>
+    <column id="151" parent="64" name="NgayTao">
+      <Position>5</Position>
+      <DefaultConstraintName>DF__GioHang__NgayTao__5629CD9C</DefaultConstraintName>
+      <DefaultExpression>NULL</DefaultExpression>
+      <DataType>date|0s</DataType>
+    </column>
+    <column id="152" parent="64" name="NgayThanhToan">
+      <Position>6</Position>
+      <DefaultConstraintName>DF__GioHang__NgayTha__571DF1D5</DefaultConstraintName>
+      <DefaultExpression>NULL</DefaultExpression>
+      <DataType>date|0s</DataType>
+    </column>
+    <column id="153" parent="64" name="TenNguoiNhan">
+      <Position>7</Position>
+      <DefaultConstraintName>DF__GioHang__TenNguo__5812160E</DefaultConstraintName>
+      <DefaultExpression>NULL</DefaultExpression>
+      <DataType>nvarchar(50 char)|0s</DataType>
+    </column>
+    <column id="154" parent="64" name="DiaChi">
+      <Position>8</Position>
+      <DefaultConstraintName>DF__GioHang__DiaChi__59063A47</DefaultConstraintName>
+      <DefaultExpression>NULL</DefaultExpression>
+      <DataType>nvarchar(100 char)|0s</DataType>
+    </column>
+    <column id="155" parent="64" name="Sdt">
+      <Position>9</Position>
+      <DefaultConstraintName>DF__GioHang__Sdt__59FA5E80</DefaultConstraintName>
+      <DefaultExpression>NULL</DefaultExpression>
+      <DataType>varchar(30 char)|0s</DataType>
+    </column>
+    <column id="156" parent="64" name="TinhTrang">
+      <Position>10</Position>
+      <DefaultConstraintName>DF__GioHang__TinhTra__5AEE82B9</DefaultConstraintName>
+      <DefaultExpression>0</DefaultExpression>
+      <DataType>int|0s</DataType>
+    </column>
+    <index id="157" parent="64" name="PK__GioHang__3214EC0724418FCB">
+      <Position>1</Position>
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>Id</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <index id="158" parent="64" name="UQ__GioHang__3214CC9E34F7F132">
+      <Position>2</Position>
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>Ma</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="159" parent="64" name="PK__GioHang__3214EC0724418FCB">
+      <ObjectId>1397580017</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2023-03-24.21:38:57.247</CreatedTimestamp>
+      <ModifiedTimestamp>2023-03-24.21:38:57.247</ModifiedTimestamp>
+      <ColNames>Id</ColNames>
+      <UnderlyingIndexName>PK__GioHang__3214EC0724418FCB</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <key id="160" parent="64" name="UQ__GioHang__3214CC9E34F7F132">
+      <ObjectId>1413580074</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2023-03-24.21:38:57.247</CreatedTimestamp>
+      <ModifiedTimestamp>2023-03-24.21:38:57.247</ModifiedTimestamp>
+      <ColNames>Ma</ColNames>
+      <UnderlyingIndexName>UQ__GioHang__3214CC9E34F7F132</UnderlyingIndexName>
+    </key>
+    <foreign-key id="161" parent="64" name="FK__GioHang__IdKH__00200768">
+      <ObjectId>2099048</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2023-03-24.21:38:57.287</CreatedTimestamp>
+      <ModifiedTimestamp>2023-03-24.21:38:57.287</ModifiedTimestamp>
+      <ColNames>IdKH</ColNames>
+      <RefTableId>997578592</RefTableId>
+      <RefTableName>KhachHang</RefTableName>
+      <RefKeyName>PK__KhachHan__3214EC075CD67D08</RefKeyName>
+      <RefColNames>Id</RefColNames>
+    </foreign-key>
+    <foreign-key id="162" parent="64" name="FK__GioHang__IdKH__160F4887">
+      <ObjectId>370100359</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2023-03-24.21:39:04.190</CreatedTimestamp>
+      <ModifiedTimestamp>2023-03-24.21:39:04.190</ModifiedTimestamp>
+      <ColNames>IdKH</ColNames>
+      <RefTableId>997578592</RefTableId>
+      <RefTableName>KhachHang</RefTableName>
+      <RefKeyName>PK__KhachHan__3214EC075CD67D08</RefKeyName>
+      <RefColNames>Id</RefColNames>
+    </foreign-key>
+    <foreign-key id="163" parent="64" name="FK__GioHang__IdKH__2BFE89A6">
+      <ObjectId>738101670</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2023-03-24.21:39:31.317</CreatedTimestamp>
+      <ModifiedTimestamp>2023-03-24.21:39:31.317</ModifiedTimestamp>
+      <ColNames>IdKH</ColNames>
+      <RefTableId>997578592</RefTableId>
+      <RefTableName>KhachHang</RefTableName>
+      <RefKeyName>PK__KhachHan__3214EC075CD67D08</RefKeyName>
+      <RefColNames>Id</RefColNames>
+    </foreign-key>
+    <foreign-key id="164" parent="64" name="FK__GioHang__IdKH__41EDCAC5">
+      <ObjectId>1106102981</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2023-03-24.21:40:08.867</CreatedTimestamp>
+      <ModifiedTimestamp>2023-03-24.21:40:08.867</ModifiedTimestamp>
+      <ColNames>IdKH</ColNames>
+      <RefTableId>997578592</RefTableId>
+      <RefTableName>KhachHang</RefTableName>
+      <RefKeyName>PK__KhachHan__3214EC075CD67D08</RefKeyName>
+      <RefColNames>Id</RefColNames>
+    </foreign-key>
+    <default id="165" parent="64" name="DF__GioHang__Id__5535A963">
+      <ObjectId>1429580131</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2023-03-24.21:38:57.247</ModifiedTimestamp>
+      <ColNames>Id</ColNames>
+      <DefaultExpression>newid()</DefaultExpression>
+    </default>
+    <default id="166" parent="64" name="DF__GioHang__NgayTao__5629CD9C">
+      <ObjectId>1445580188</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2023-03-24.21:38:57.247</ModifiedTimestamp>
+      <ColNames>NgayTao</ColNames>
+      <DefaultExpression>NULL</DefaultExpression>
+    </default>
+    <default id="167" parent="64" name="DF__GioHang__NgayTha__571DF1D5">
+      <ObjectId>1461580245</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2023-03-24.21:38:57.247</ModifiedTimestamp>
+      <ColNames>NgayThanhToan</ColNames>
+      <DefaultExpression>NULL</DefaultExpression>
+    </default>
+    <default id="168" parent="64" name="DF__GioHang__TenNguo__5812160E">
+      <ObjectId>1477580302</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2023-03-24.21:38:57.247</ModifiedTimestamp>
+      <ColNames>TenNguoiNhan</ColNames>
+      <DefaultExpression>NULL</DefaultExpression>
+    </default>
+    <default id="169" parent="64" name="DF__GioHang__DiaChi__59063A47">
+      <ObjectId>1493580359</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2023-03-24.21:38:57.247</ModifiedTimestamp>
+      <ColNames>DiaChi</ColNames>
+      <DefaultExpression>NULL</DefaultExpression>
+    </default>
+    <default id="170" parent="64" name="DF__GioHang__Sdt__59FA5E80">
+      <ObjectId>1509580416</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2023-03-24.21:38:57.247</ModifiedTimestamp>
+      <ColNames>Sdt</ColNames>
+      <DefaultExpression>NULL</DefaultExpression>
+    </default>
+    <default id="171" parent="64" name="DF__GioHang__TinhTra__5AEE82B9">
+      <ObjectId>1525580473</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2023-03-24.21:38:57.247</ModifiedTimestamp>
+      <ColNames>TinhTrang</ColNames>
+      <DefaultExpression>0</DefaultExpression>
+    </default>
+    <column id="172" parent="65" name="IdGioHang">
+      <Position>1</Position>
+      <DataType>uniqueidentifier|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="173" parent="65" name="IdChiTietSP">
+      <Position>2</Position>
+      <DataType>uniqueidentifier|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="174" parent="65" name="SoLuong">
+      <Position>3</Position>
+      <DataType>int|0s</DataType>
+    </column>
+    <column id="175" parent="65" name="DonGia">
+      <Position>4</Position>
+      <DefaultConstraintName>DF__GioHangCh__DonGi__787EE5A0</DefaultConstraintName>
+      <DefaultExpression>0</DefaultExpression>
+      <DataType>decimal(20)|0s</DataType>
+    </column>
+    <column id="176" parent="65" name="DonGiaKhiGiam">
+      <Position>5</Position>
+      <DefaultConstraintName>DF__GioHangCh__DonGi__797309D9</DefaultConstraintName>
+      <DefaultExpression>0</DefaultExpression>
+      <DataType>decimal(20)|0s</DataType>
+    </column>
+    <index id="177" parent="65" name="PK_GioHangCT">
+      <Position>1</Position>
+      <ColNames>IdGioHang
+IdChiTietSP</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="178" parent="65" name="PK_GioHangCT">
+      <ObjectId>2005582183</ObjectId>
+      <CreatedTimestamp>2023-03-24.21:38:57.273</CreatedTimestamp>
+      <ModifiedTimestamp>2023-03-24.21:38:57.273</ModifiedTimestamp>
+      <ColNames>IdGioHang
+IdChiTietSP</ColNames>
+      <UnderlyingIndexName>PK_GioHangCT</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="179" parent="65" name="FK1_IdGioHang">
+      <ObjectId>2053582354</ObjectId>
+      <CreatedTimestamp>2023-03-24.21:38:57.277</CreatedTimestamp>
+      <ModifiedTimestamp>2023-03-24.21:38:57.277</ModifiedTimestamp>
+      <ColNames>IdGioHang</ColNames>
+      <RefTableId>1381579960</RefTableId>
+      <RefTableName>GioHang</RefTableName>
+      <RefKeyName>PK__GioHang__3214EC0724418FCB</RefKeyName>
+      <RefColNames>Id</RefColNames>
+    </foreign-key>
+    <foreign-key id="180" parent="65" name="FK2_IdChiTietSP">
+      <ObjectId>2069582411</ObjectId>
+      <CreatedTimestamp>2023-03-24.21:38:57.277</CreatedTimestamp>
+      <ModifiedTimestamp>2023-03-24.21:38:57.277</ModifiedTimestamp>
+      <ColNames>IdChiTietSP</ColNames>
+      <RefTableId>1797581442</RefTableId>
+      <RefTableName>ChiTietSP</RefTableName>
+      <RefKeyName>PK__ChiTietS__3214EC07AB0B7611</RefKeyName>
+      <RefColNames>Id</RefColNames>
+    </foreign-key>
+    <default id="181" parent="65" name="DF__GioHangCh__DonGi__787EE5A0">
+      <ObjectId>2021582240</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2023-03-24.21:38:57.273</ModifiedTimestamp>
+      <ColNames>DonGia</ColNames>
+      <DefaultExpression>0</DefaultExpression>
+    </default>
+    <default id="182" parent="65" name="DF__GioHangCh__DonGi__797309D9">
+      <ObjectId>2037582297</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2023-03-24.21:38:57.277</ModifiedTimestamp>
+      <ColNames>DonGiaKhiGiam</ColNames>
+      <DefaultExpression>0</DefaultExpression>
+    </default>
+    <column id="183" parent="66" name="Id">
+      <Position>1</Position>
+      <DefaultConstraintName>DF__HoaDon__Id__49C3F6B7</DefaultConstraintName>
+      <DefaultExpression>newid()</DefaultExpression>
+      <DataType>uniqueidentifier|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="184" parent="66" name="IdKH">
+      <Position>2</Position>
+      <DataType>uniqueidentifier|0s</DataType>
+    </column>
+    <column id="185" parent="66" name="IdNV">
+      <Position>3</Position>
+      <DataType>uniqueidentifier|0s</DataType>
+    </column>
+    <column id="186" parent="66" name="Ma">
+      <Position>4</Position>
+      <DataType>varchar(20 char)|0s</DataType>
+    </column>
+    <column id="187" parent="66" name="NgayTao">
+      <Position>5</Position>
+      <DefaultConstraintName>DF__HoaDon__NgayTao__4AB81AF0</DefaultConstraintName>
+      <DefaultExpression>NULL</DefaultExpression>
+      <DataType>date|0s</DataType>
+    </column>
+    <column id="188" parent="66" name="NgayThanhToan">
+      <Position>6</Position>
+      <DefaultConstraintName>DF__HoaDon__NgayThan__4BAC3F29</DefaultConstraintName>
+      <DefaultExpression>NULL</DefaultExpression>
+      <DataType>date|0s</DataType>
+    </column>
+    <column id="189" parent="66" name="NgayShip">
+      <Position>7</Position>
+      <DefaultConstraintName>DF__HoaDon__NgayShip__4CA06362</DefaultConstraintName>
+      <DefaultExpression>NULL</DefaultExpression>
+      <DataType>date|0s</DataType>
+    </column>
+    <column id="190" parent="66" name="NgayNhan">
+      <Position>8</Position>
+      <DefaultConstraintName>DF__HoaDon__NgayNhan__4D94879B</DefaultConstraintName>
+      <DefaultExpression>NULL</DefaultExpression>
+      <DataType>date|0s</DataType>
+    </column>
+    <column id="191" parent="66" name="TinhTrang">
+      <Position>9</Position>
+      <DefaultConstraintName>DF__HoaDon__TinhTran__4E88ABD4</DefaultConstraintName>
+      <DefaultExpression>0</DefaultExpression>
+      <DataType>int|0s</DataType>
+    </column>
+    <column id="192" parent="66" name="TenNguoiNhan">
+      <Position>10</Position>
+      <DefaultConstraintName>DF__HoaDon__TenNguoi__4F7CD00D</DefaultConstraintName>
+      <DefaultExpression>NULL</DefaultExpression>
+      <DataType>nvarchar(50 char)|0s</DataType>
+    </column>
+    <column id="193" parent="66" name="DiaChi">
+      <Position>11</Position>
+      <DefaultConstraintName>DF__HoaDon__DiaChi__5070F446</DefaultConstraintName>
+      <DefaultExpression>NULL</DefaultExpression>
+      <DataType>nvarchar(100 char)|0s</DataType>
+    </column>
+    <column id="194" parent="66" name="Sdt">
+      <Position>12</Position>
+      <DefaultConstraintName>DF__HoaDon__Sdt__5165187F</DefaultConstraintName>
+      <DefaultExpression>NULL</DefaultExpression>
+      <DataType>varchar(30 char)|0s</DataType>
+    </column>
+    <index id="195" parent="66" name="PK__HoaDon__3214EC0733979A28">
+      <Position>1</Position>
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>Id</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <index id="196" parent="66" name="UQ__HoaDon__3214CC9EBCF90605">
+      <Position>2</Position>
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>Ma</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="197" parent="66" name="PK__HoaDon__3214EC0733979A28">
+      <ObjectId>1205579333</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2023-03-24.21:38:57.240</CreatedTimestamp>
+      <ModifiedTimestamp>2023-03-24.21:38:57.240</ModifiedTimestamp>
+      <ColNames>Id</ColNames>
+      <UnderlyingIndexName>PK__HoaDon__3214EC0733979A28</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <key id="198" parent="66" name="UQ__HoaDon__3214CC9EBCF90605">
+      <ObjectId>1221579390</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2023-03-24.21:38:57.240</CreatedTimestamp>
+      <ModifiedTimestamp>2023-03-24.21:38:57.240</ModifiedTimestamp>
+      <ColNames>Ma</ColNames>
+      <UnderlyingIndexName>UQ__HoaDon__3214CC9EBCF90605</UnderlyingIndexName>
+    </key>
+    <foreign-key id="199" parent="66" name="FK__HoaDon__IdKH__151B244E">
+      <ObjectId>354100302</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2023-03-24.21:39:04.187</CreatedTimestamp>
+      <ModifiedTimestamp>2023-03-24.21:39:04.187</ModifiedTimestamp>
+      <ColNames>IdKH</ColNames>
+      <RefTableId>997578592</RefTableId>
+      <RefTableName>KhachHang</RefTableName>
+      <RefKeyName>PK__KhachHan__3214EC075CD67D08</RefKeyName>
+      <RefColNames>Id</RefColNames>
+    </foreign-key>
+    <foreign-key id="200" parent="66" name="FK__HoaDon__IdKH__2B0A656D">
+      <ObjectId>722101613</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2023-03-24.21:39:31.317</CreatedTimestamp>
+      <ModifiedTimestamp>2023-03-24.21:39:31.317</ModifiedTimestamp>
+      <ColNames>IdKH</ColNames>
+      <RefTableId>997578592</RefTableId>
+      <RefTableName>KhachHang</RefTableName>
+      <RefKeyName>PK__KhachHan__3214EC075CD67D08</RefKeyName>
+      <RefColNames>Id</RefColNames>
+    </foreign-key>
+    <foreign-key id="201" parent="66" name="FK__HoaDon__IdKH__40F9A68C">
+      <ObjectId>1090102924</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2023-03-24.21:40:08.867</CreatedTimestamp>
+      <ModifiedTimestamp>2023-03-24.21:40:08.867</ModifiedTimestamp>
+      <ColNames>IdKH</ColNames>
+      <RefTableId>997578592</RefTableId>
+      <RefTableName>KhachHang</RefTableName>
+      <RefKeyName>PK__KhachHan__3214EC075CD67D08</RefKeyName>
+      <RefColNames>Id</RefColNames>
+    </foreign-key>
+    <foreign-key id="202" parent="66" name="FK__HoaDon__IdKH__7F2BE32F">
+      <ObjectId>2133582639</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2023-03-24.21:38:57.283</CreatedTimestamp>
+      <ModifiedTimestamp>2023-03-24.21:38:57.283</ModifiedTimestamp>
+      <ColNames>IdKH</ColNames>
+      <RefTableId>997578592</RefTableId>
+      <RefTableName>KhachHang</RefTableName>
+      <RefKeyName>PK__KhachHan__3214EC075CD67D08</RefKeyName>
+      <RefColNames>Id</RefColNames>
+    </foreign-key>
+    <foreign-key id="203" parent="66" name="FK__HoaDon__IdNV__01142BA1">
+      <ObjectId>18099105</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2023-03-24.21:38:57.287</CreatedTimestamp>
+      <ModifiedTimestamp>2023-03-24.21:38:57.287</ModifiedTimestamp>
+      <ColNames>IdNV</ColNames>
+      <RefTableId>789577851</RefTableId>
+      <RefTableName>NhanVien</RefTableName>
+      <RefKeyName>PK__NhanVien__3214EC0789CCA6E5</RefKeyName>
+      <RefColNames>Id</RefColNames>
+    </foreign-key>
+    <foreign-key id="204" parent="66" name="FK__HoaDon__IdNV__17036CC0">
+      <ObjectId>386100416</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2023-03-24.21:39:04.190</CreatedTimestamp>
+      <ModifiedTimestamp>2023-03-24.21:39:04.190</ModifiedTimestamp>
+      <ColNames>IdNV</ColNames>
+      <RefTableId>789577851</RefTableId>
+      <RefTableName>NhanVien</RefTableName>
+      <RefKeyName>PK__NhanVien__3214EC0789CCA6E5</RefKeyName>
+      <RefColNames>Id</RefColNames>
+    </foreign-key>
+    <foreign-key id="205" parent="66" name="FK__HoaDon__IdNV__2CF2ADDF">
+      <ObjectId>754101727</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2023-03-24.21:39:31.320</CreatedTimestamp>
+      <ModifiedTimestamp>2023-03-24.21:39:31.320</ModifiedTimestamp>
+      <ColNames>IdNV</ColNames>
+      <RefTableId>789577851</RefTableId>
+      <RefTableName>NhanVien</RefTableName>
+      <RefKeyName>PK__NhanVien__3214EC0789CCA6E5</RefKeyName>
+      <RefColNames>Id</RefColNames>
+    </foreign-key>
+    <foreign-key id="206" parent="66" name="FK__HoaDon__IdNV__42E1EEFE">
+      <ObjectId>1122103038</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2023-03-24.21:40:08.870</CreatedTimestamp>
+      <ModifiedTimestamp>2023-03-24.21:40:08.870</ModifiedTimestamp>
+      <ColNames>IdNV</ColNames>
+      <RefTableId>789577851</RefTableId>
+      <RefTableName>NhanVien</RefTableName>
+      <RefKeyName>PK__NhanVien__3214EC0789CCA6E5</RefKeyName>
+      <RefColNames>Id</RefColNames>
+    </foreign-key>
+    <default id="207" parent="66" name="DF__HoaDon__Id__49C3F6B7">
+      <ObjectId>1237579447</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2023-03-24.21:38:57.240</ModifiedTimestamp>
+      <ColNames>Id</ColNames>
+      <DefaultExpression>newid()</DefaultExpression>
+    </default>
+    <default id="208" parent="66" name="DF__HoaDon__NgayTao__4AB81AF0">
+      <ObjectId>1253579504</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2023-03-24.21:38:57.240</ModifiedTimestamp>
+      <ColNames>NgayTao</ColNames>
+      <DefaultExpression>NULL</DefaultExpression>
+    </default>
+    <default id="209" parent="66" name="DF__HoaDon__NgayThan__4BAC3F29">
+      <ObjectId>1269579561</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2023-03-24.21:38:57.240</ModifiedTimestamp>
+      <ColNames>NgayThanhToan</ColNames>
+      <DefaultExpression>NULL</DefaultExpression>
+    </default>
+    <default id="210" parent="66" name="DF__HoaDon__NgayShip__4CA06362">
+      <ObjectId>1285579618</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2023-03-24.21:38:57.240</ModifiedTimestamp>
+      <ColNames>NgayShip</ColNames>
+      <DefaultExpression>NULL</DefaultExpression>
+    </default>
+    <default id="211" parent="66" name="DF__HoaDon__NgayNhan__4D94879B">
+      <ObjectId>1301579675</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2023-03-24.21:38:57.240</ModifiedTimestamp>
+      <ColNames>NgayNhan</ColNames>
+      <DefaultExpression>NULL</DefaultExpression>
+    </default>
+    <default id="212" parent="66" name="DF__HoaDon__TinhTran__4E88ABD4">
+      <ObjectId>1317579732</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2023-03-24.21:38:57.240</ModifiedTimestamp>
+      <ColNames>TinhTrang</ColNames>
+      <DefaultExpression>0</DefaultExpression>
+    </default>
+    <default id="213" parent="66" name="DF__HoaDon__TenNguoi__4F7CD00D">
+      <ObjectId>1333579789</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2023-03-24.21:38:57.243</ModifiedTimestamp>
+      <ColNames>TenNguoiNhan</ColNames>
+      <DefaultExpression>NULL</DefaultExpression>
+    </default>
+    <default id="214" parent="66" name="DF__HoaDon__DiaChi__5070F446">
+      <ObjectId>1349579846</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2023-03-24.21:38:57.243</ModifiedTimestamp>
+      <ColNames>DiaChi</ColNames>
+      <DefaultExpression>NULL</DefaultExpression>
+    </default>
+    <default id="215" parent="66" name="DF__HoaDon__Sdt__5165187F">
+      <ObjectId>1365579903</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2023-03-24.21:38:57.243</ModifiedTimestamp>
+      <ColNames>Sdt</ColNames>
+      <DefaultExpression>NULL</DefaultExpression>
+    </default>
+    <column id="216" parent="67" name="IdHoaDon">
+      <Position>1</Position>
+      <DataType>uniqueidentifier|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="217" parent="67" name="IdChiTietSP">
+      <Position>2</Position>
+      <DataType>uniqueidentifier|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="218" parent="67" name="SoLuong">
+      <Position>3</Position>
+      <DataType>int|0s</DataType>
+    </column>
+    <column id="219" parent="67" name="DonGia">
+      <Position>4</Position>
+      <DefaultConstraintName>DF__HoaDonChi__DonGi__73BA3083</DefaultConstraintName>
+      <DefaultExpression>0</DefaultExpression>
+      <DataType>decimal(20)|0s</DataType>
+    </column>
+    <index id="220" parent="67" name="PK_HoaDonCT">
+      <Position>1</Position>
+      <ColNames>IdHoaDon
+IdChiTietSP</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="221" parent="67" name="PK_HoaDonCT">
+      <ObjectId>1925581898</ObjectId>
+      <CreatedTimestamp>2023-03-24.21:38:57.270</CreatedTimestamp>
+      <ModifiedTimestamp>2023-03-24.21:38:57.270</ModifiedTimestamp>
+      <ColNames>IdHoaDon
+IdChiTietSP</ColNames>
+      <UnderlyingIndexName>PK_HoaDonCT</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="222" parent="67" name="FK1">
+      <ObjectId>1957582012</ObjectId>
+      <CreatedTimestamp>2023-03-24.21:38:57.270</CreatedTimestamp>
+      <ModifiedTimestamp>2023-03-24.21:38:57.270</ModifiedTimestamp>
+      <ColNames>IdHoaDon</ColNames>
+      <RefTableId>1189579276</RefTableId>
+      <RefTableName>HoaDon</RefTableName>
+      <RefKeyName>PK__HoaDon__3214EC0733979A28</RefKeyName>
+      <RefColNames>Id</RefColNames>
+    </foreign-key>
+    <foreign-key id="223" parent="67" name="FK2">
+      <ObjectId>1973582069</ObjectId>
+      <CreatedTimestamp>2023-03-24.21:38:57.270</CreatedTimestamp>
+      <ModifiedTimestamp>2023-03-24.21:38:57.270</ModifiedTimestamp>
+      <ColNames>IdChiTietSP</ColNames>
+      <RefTableId>1797581442</RefTableId>
+      <RefTableName>ChiTietSP</RefTableName>
+      <RefKeyName>PK__ChiTietS__3214EC07AB0B7611</RefKeyName>
+      <RefColNames>Id</RefColNames>
+    </foreign-key>
+    <default id="224" parent="67" name="DF__HoaDonChi__DonGi__73BA3083">
+      <ObjectId>1941581955</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2023-03-24.21:38:57.270</ModifiedTimestamp>
+      <ColNames>DonGia</ColNames>
+      <DefaultExpression>0</DefaultExpression>
+    </default>
+    <column id="225" parent="68" name="Id">
+      <Position>1</Position>
+      <DefaultConstraintName>DF__KhachHang__Id__3E52440B</DefaultConstraintName>
+      <DefaultExpression>newid()</DefaultExpression>
+      <DataType>uniqueidentifier|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="226" parent="68" name="Ma">
+      <Position>2</Position>
+      <DataType>varchar(20 char)|0s</DataType>
+    </column>
+    <column id="227" parent="68" name="Ten">
+      <Position>3</Position>
+      <DataType>nvarchar(30 char)|0s</DataType>
+    </column>
+    <column id="228" parent="68" name="TenDem">
+      <Position>4</Position>
+      <DefaultConstraintName>DF__KhachHang__TenDe__3F466844</DefaultConstraintName>
+      <DefaultExpression>NULL</DefaultExpression>
+      <DataType>nvarchar(30 char)|0s</DataType>
+    </column>
+    <column id="229" parent="68" name="Ho">
+      <Position>5</Position>
+      <DefaultConstraintName>DF__KhachHang__Ho__403A8C7D</DefaultConstraintName>
+      <DefaultExpression>NULL</DefaultExpression>
+      <DataType>nvarchar(30 char)|0s</DataType>
+    </column>
+    <column id="230" parent="68" name="NgaySinh">
+      <Position>6</Position>
+      <DefaultConstraintName>DF__KhachHang__NgayS__412EB0B6</DefaultConstraintName>
+      <DefaultExpression>NULL</DefaultExpression>
+      <DataType>date|0s</DataType>
+    </column>
+    <column id="231" parent="68" name="Sdt">
+      <Position>7</Position>
+      <DefaultConstraintName>DF__KhachHang__Sdt__4222D4EF</DefaultConstraintName>
+      <DefaultExpression>NULL</DefaultExpression>
+      <DataType>varchar(30 char)|0s</DataType>
+    </column>
+    <column id="232" parent="68" name="DiaChi">
+      <Position>8</Position>
+      <DefaultConstraintName>DF__KhachHang__DiaCh__4316F928</DefaultConstraintName>
+      <DefaultExpression>NULL</DefaultExpression>
+      <DataType>nvarchar(100 char)|0s</DataType>
+    </column>
+    <column id="233" parent="68" name="ThanhPho">
+      <Position>9</Position>
+      <DefaultConstraintName>DF__KhachHang__Thanh__440B1D61</DefaultConstraintName>
+      <DefaultExpression>NULL</DefaultExpression>
+      <DataType>nvarchar(50 char)|0s</DataType>
+    </column>
+    <column id="234" parent="68" name="QuocGia">
+      <Position>10</Position>
+      <DefaultConstraintName>DF__KhachHang__QuocG__44FF419A</DefaultConstraintName>
+      <DefaultExpression>NULL</DefaultExpression>
+      <DataType>nvarchar(50 char)|0s</DataType>
+    </column>
+    <column id="235" parent="68" name="MatKhau">
+      <Position>11</Position>
+      <DefaultConstraintName>DF__KhachHang__MatKh__45F365D3</DefaultConstraintName>
+      <DefaultExpression>NULL</DefaultExpression>
+      <DataType>varchar(max)|0s</DataType>
+    </column>
+    <index id="236" parent="68" name="PK__KhachHan__3214EC075CD67D08">
+      <Position>1</Position>
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>Id</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <index id="237" parent="68" name="UQ__KhachHan__3214CC9E1A358B02">
+      <Position>2</Position>
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>Ma</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="238" parent="68" name="PK__KhachHan__3214EC075CD67D08">
+      <ObjectId>1013578649</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2023-03-24.21:38:57.233</CreatedTimestamp>
+      <ModifiedTimestamp>2023-03-24.21:38:57.233</ModifiedTimestamp>
+      <ColNames>Id</ColNames>
+      <UnderlyingIndexName>PK__KhachHan__3214EC075CD67D08</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <key id="239" parent="68" name="UQ__KhachHan__3214CC9E1A358B02">
+      <ObjectId>1029578706</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2023-03-24.21:38:57.233</CreatedTimestamp>
+      <ModifiedTimestamp>2023-03-24.21:38:57.233</ModifiedTimestamp>
+      <ColNames>Ma</ColNames>
+      <UnderlyingIndexName>UQ__KhachHan__3214CC9E1A358B02</UnderlyingIndexName>
+    </key>
+    <default id="240" parent="68" name="DF__KhachHang__Id__3E52440B">
+      <ObjectId>1045578763</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2023-03-24.21:38:57.233</ModifiedTimestamp>
+      <ColNames>Id</ColNames>
+      <DefaultExpression>newid()</DefaultExpression>
+    </default>
+    <default id="241" parent="68" name="DF__KhachHang__TenDe__3F466844">
+      <ObjectId>1061578820</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2023-03-24.21:38:57.233</ModifiedTimestamp>
+      <ColNames>TenDem</ColNames>
+      <DefaultExpression>NULL</DefaultExpression>
+    </default>
+    <default id="242" parent="68" name="DF__KhachHang__Ho__403A8C7D">
+      <ObjectId>1077578877</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2023-03-24.21:38:57.237</ModifiedTimestamp>
+      <ColNames>Ho</ColNames>
+      <DefaultExpression>NULL</DefaultExpression>
+    </default>
+    <default id="243" parent="68" name="DF__KhachHang__NgayS__412EB0B6">
+      <ObjectId>1093578934</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2023-03-24.21:38:57.237</ModifiedTimestamp>
+      <ColNames>NgaySinh</ColNames>
+      <DefaultExpression>NULL</DefaultExpression>
+    </default>
+    <default id="244" parent="68" name="DF__KhachHang__Sdt__4222D4EF">
+      <ObjectId>1109578991</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2023-03-24.21:38:57.237</ModifiedTimestamp>
+      <ColNames>Sdt</ColNames>
+      <DefaultExpression>NULL</DefaultExpression>
+    </default>
+    <default id="245" parent="68" name="DF__KhachHang__DiaCh__4316F928">
+      <ObjectId>1125579048</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2023-03-24.21:38:57.237</ModifiedTimestamp>
+      <ColNames>DiaChi</ColNames>
+      <DefaultExpression>NULL</DefaultExpression>
+    </default>
+    <default id="246" parent="68" name="DF__KhachHang__Thanh__440B1D61">
+      <ObjectId>1141579105</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2023-03-24.21:38:57.237</ModifiedTimestamp>
+      <ColNames>ThanhPho</ColNames>
+      <DefaultExpression>NULL</DefaultExpression>
+    </default>
+    <default id="247" parent="68" name="DF__KhachHang__QuocG__44FF419A">
+      <ObjectId>1157579162</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2023-03-24.21:38:57.237</ModifiedTimestamp>
+      <ColNames>QuocGia</ColNames>
+      <DefaultExpression>NULL</DefaultExpression>
+    </default>
+    <default id="248" parent="68" name="DF__KhachHang__MatKh__45F365D3">
+      <ObjectId>1173579219</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2023-03-24.21:38:57.237</ModifiedTimestamp>
+      <ColNames>MatKhau</ColNames>
+      <DefaultExpression>NULL</DefaultExpression>
+    </default>
+    <column id="249" parent="69" name="Id">
+      <Position>1</Position>
+      <DefaultConstraintName>DF__MauSac__Id__66603565</DefaultConstraintName>
+      <DefaultExpression>newid()</DefaultExpression>
+      <DataType>uniqueidentifier|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="250" parent="69" name="Ma">
+      <Position>2</Position>
+      <DataType>varchar(20 char)|0s</DataType>
+    </column>
+    <column id="251" parent="69" name="Ten">
+      <Position>3</Position>
+      <DataType>nvarchar(30 char)|0s</DataType>
+    </column>
+    <index id="252" parent="69" name="PK__MauSac__3214EC075ECC54B3">
+      <Position>1</Position>
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>Id</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <index id="253" parent="69" name="UQ__MauSac__3214CC9E7092B641">
+      <Position>2</Position>
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>Ma</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="254" parent="69" name="PK__MauSac__3214EC075ECC54B3">
+      <ObjectId>1685581043</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2023-03-24.21:38:57.257</CreatedTimestamp>
+      <ModifiedTimestamp>2023-03-24.21:38:57.257</ModifiedTimestamp>
+      <ColNames>Id</ColNames>
+      <UnderlyingIndexName>PK__MauSac__3214EC075ECC54B3</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <key id="255" parent="69" name="UQ__MauSac__3214CC9E7092B641">
+      <ObjectId>1701581100</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2023-03-24.21:38:57.257</CreatedTimestamp>
+      <ModifiedTimestamp>2023-03-24.21:38:57.257</ModifiedTimestamp>
+      <ColNames>Ma</ColNames>
+      <UnderlyingIndexName>UQ__MauSac__3214CC9E7092B641</UnderlyingIndexName>
+    </key>
+    <default id="256" parent="69" name="DF__MauSac__Id__66603565">
+      <ObjectId>1717581157</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2023-03-24.21:38:57.260</ModifiedTimestamp>
+      <ColNames>Id</ColNames>
+      <DefaultExpression>newid()</DefaultExpression>
+    </default>
+    <column id="257" parent="70" name="Id">
+      <Position>1</Position>
+      <DefaultConstraintName>DF__NSX__Id__628FA481</DefaultConstraintName>
+      <DefaultExpression>newid()</DefaultExpression>
+      <DataType>uniqueidentifier|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="258" parent="70" name="Ma">
+      <Position>2</Position>
+      <DataType>varchar(20 char)|0s</DataType>
+    </column>
+    <column id="259" parent="70" name="Ten">
+      <Position>3</Position>
+      <DataType>nvarchar(30 char)|0s</DataType>
+    </column>
+    <index id="260" parent="70" name="PK__NSX__3214EC078482A425">
+      <Position>1</Position>
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>Id</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <index id="261" parent="70" name="UQ__NSX__3214CC9E224D28BA">
+      <Position>2</Position>
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>Ma</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="262" parent="70" name="PK__NSX__3214EC078482A425">
+      <ObjectId>1621580815</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2023-03-24.21:38:57.253</CreatedTimestamp>
+      <ModifiedTimestamp>2023-03-24.21:38:57.253</ModifiedTimestamp>
+      <ColNames>Id</ColNames>
+      <UnderlyingIndexName>PK__NSX__3214EC078482A425</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <key id="263" parent="70" name="UQ__NSX__3214CC9E224D28BA">
+      <ObjectId>1637580872</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2023-03-24.21:38:57.253</CreatedTimestamp>
+      <ModifiedTimestamp>2023-03-24.21:38:57.253</ModifiedTimestamp>
+      <ColNames>Ma</ColNames>
+      <UnderlyingIndexName>UQ__NSX__3214CC9E224D28BA</UnderlyingIndexName>
+    </key>
+    <default id="264" parent="70" name="DF__NSX__Id__628FA481">
+      <ObjectId>1653580929</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2023-03-24.21:38:57.253</ModifiedTimestamp>
+      <ColNames>Id</ColNames>
+      <DefaultExpression>newid()</DefaultExpression>
+    </default>
+    <column id="265" parent="71" name="Id">
+      <Position>1</Position>
+      <DefaultConstraintName>DF__NhanVien__Id__31EC6D26</DefaultConstraintName>
+      <DefaultExpression>newid()</DefaultExpression>
+      <DataType>uniqueidentifier|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="266" parent="71" name="Ma">
+      <Position>2</Position>
+      <DataType>varchar(20 char)|0s</DataType>
+    </column>
+    <column id="267" parent="71" name="Ten">
+      <Position>3</Position>
+      <DefaultConstraintName>DF__NhanVien__Ten__32E0915F</DefaultConstraintName>
+      <DefaultExpression>NULL</DefaultExpression>
+      <DataType>nvarchar(30 char)|0s</DataType>
+    </column>
+    <column id="268" parent="71" name="TenDem">
+      <Position>4</Position>
+      <DefaultConstraintName>DF__NhanVien__TenDem__33D4B598</DefaultConstraintName>
+      <DefaultExpression>NULL</DefaultExpression>
+      <DataType>nvarchar(30 char)|0s</DataType>
+    </column>
+    <column id="269" parent="71" name="Ho">
+      <Position>5</Position>
+      <DefaultConstraintName>DF__NhanVien__Ho__34C8D9D1</DefaultConstraintName>
+      <DefaultExpression>NULL</DefaultExpression>
+      <DataType>nvarchar(30 char)|0s</DataType>
+    </column>
+    <column id="270" parent="71" name="GioiTinh">
+      <Position>6</Position>
+      <DefaultConstraintName>DF__NhanVien__GioiTi__35BCFE0A</DefaultConstraintName>
+      <DefaultExpression>NULL</DefaultExpression>
+      <DataType>nvarchar(10 char)|0s</DataType>
+    </column>
+    <column id="271" parent="71" name="NgaySinh">
+      <Position>7</Position>
+      <DefaultConstraintName>DF__NhanVien__NgaySi__36B12243</DefaultConstraintName>
+      <DefaultExpression>NULL</DefaultExpression>
+      <DataType>date|0s</DataType>
+    </column>
+    <column id="272" parent="71" name="DiaChi">
+      <Position>8</Position>
+      <DefaultConstraintName>DF__NhanVien__DiaChi__37A5467C</DefaultConstraintName>
+      <DefaultExpression>NULL</DefaultExpression>
+      <DataType>nvarchar(100 char)|0s</DataType>
+    </column>
+    <column id="273" parent="71" name="Sdt">
+      <Position>9</Position>
+      <DefaultConstraintName>DF__NhanVien__Sdt__38996AB5</DefaultConstraintName>
+      <DefaultExpression>NULL</DefaultExpression>
+      <DataType>varchar(30 char)|0s</DataType>
+    </column>
+    <column id="274" parent="71" name="MatKhau">
+      <Position>10</Position>
+      <DefaultConstraintName>DF__NhanVien__MatKha__398D8EEE</DefaultConstraintName>
+      <DefaultExpression>NULL</DefaultExpression>
+      <DataType>varchar(max)|0s</DataType>
+    </column>
+    <column id="275" parent="71" name="IdCH">
+      <Position>11</Position>
+      <DataType>uniqueidentifier|0s</DataType>
+    </column>
+    <column id="276" parent="71" name="IdCV">
+      <Position>12</Position>
+      <DataType>uniqueidentifier|0s</DataType>
+    </column>
+    <column id="277" parent="71" name="IdGuiBC">
+      <Position>13</Position>
+      <DataType>uniqueidentifier|0s</DataType>
+    </column>
+    <column id="278" parent="71" name="TrangThai">
+      <Position>14</Position>
+      <DefaultConstraintName>DF__NhanVien__TrangT__3A81B327</DefaultConstraintName>
+      <DefaultExpression>0</DefaultExpression>
+      <DataType>int|0s</DataType>
+    </column>
+    <index id="279" parent="71" name="PK__NhanVien__3214EC0789CCA6E5">
+      <Position>1</Position>
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>Id</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <index id="280" parent="71" name="UQ__NhanVien__3214CC9EB89D7B41">
+      <Position>2</Position>
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>Ma</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="281" parent="71" name="PK__NhanVien__3214EC0789CCA6E5">
+      <ObjectId>805577908</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2023-03-24.21:38:57.227</CreatedTimestamp>
+      <ModifiedTimestamp>2023-03-24.21:38:57.227</ModifiedTimestamp>
+      <ColNames>Id</ColNames>
+      <UnderlyingIndexName>PK__NhanVien__3214EC0789CCA6E5</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <key id="282" parent="71" name="UQ__NhanVien__3214CC9EB89D7B41">
+      <ObjectId>821577965</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2023-03-24.21:38:57.227</CreatedTimestamp>
+      <ModifiedTimestamp>2023-03-24.21:38:57.227</ModifiedTimestamp>
+      <ColNames>Ma</ColNames>
+      <UnderlyingIndexName>UQ__NhanVien__3214CC9EB89D7B41</UnderlyingIndexName>
+    </key>
+    <foreign-key id="283" parent="71" name="FK__NhanVien__IdCH__123EB7A3">
+      <ObjectId>306100131</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2023-03-24.21:39:04.180</CreatedTimestamp>
+      <ModifiedTimestamp>2023-03-24.21:39:04.180</ModifiedTimestamp>
+      <ColNames>IdCH</ColNames>
+      <RefTableId>661577395</RefTableId>
+      <RefTableName>CuaHang</RefTableName>
+      <RefKeyName>PK__CuaHang__3214EC0720607B0C</RefKeyName>
+      <RefColNames>Id</RefColNames>
+    </foreign-key>
+    <foreign-key id="284" parent="71" name="FK__NhanVien__IdCH__282DF8C2">
+      <ObjectId>674101442</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2023-03-24.21:39:31.313</CreatedTimestamp>
+      <ModifiedTimestamp>2023-03-24.21:39:31.313</ModifiedTimestamp>
+      <ColNames>IdCH</ColNames>
+      <RefTableId>661577395</RefTableId>
+      <RefTableName>CuaHang</RefTableName>
+      <RefKeyName>PK__CuaHang__3214EC0720607B0C</RefKeyName>
+      <RefColNames>Id</RefColNames>
+    </foreign-key>
+    <foreign-key id="285" parent="71" name="FK__NhanVien__IdCH__3E1D39E1">
+      <ObjectId>1042102753</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2023-03-24.21:40:08.860</CreatedTimestamp>
+      <ModifiedTimestamp>2023-03-24.21:40:08.860</ModifiedTimestamp>
+      <ColNames>IdCH</ColNames>
+      <RefTableId>661577395</RefTableId>
+      <RefTableName>CuaHang</RefTableName>
+      <RefKeyName>PK__CuaHang__3214EC0720607B0C</RefKeyName>
+      <RefColNames>Id</RefColNames>
+    </foreign-key>
+    <foreign-key id="286" parent="71" name="FK__NhanVien__IdCH__7C4F7684">
+      <ObjectId>2085582468</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2023-03-24.21:38:57.280</CreatedTimestamp>
+      <ModifiedTimestamp>2023-03-24.21:38:57.280</ModifiedTimestamp>
+      <ColNames>IdCH</ColNames>
+      <RefTableId>661577395</RefTableId>
+      <RefTableName>CuaHang</RefTableName>
+      <RefKeyName>PK__CuaHang__3214EC0720607B0C</RefKeyName>
+      <RefColNames>Id</RefColNames>
+    </foreign-key>
+    <foreign-key id="287" parent="71" name="FK__NhanVien__IdCV__1332DBDC">
+      <ObjectId>322100188</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2023-03-24.21:39:04.183</CreatedTimestamp>
+      <ModifiedTimestamp>2023-03-24.21:39:04.183</ModifiedTimestamp>
+      <ColNames>IdCV</ColNames>
+      <RefTableId>581577110</RefTableId>
+      <RefTableName>ChucVu</RefTableName>
+      <RefKeyName>PK__ChucVu__3214EC07D6F80707</RefKeyName>
+      <RefColNames>Id</RefColNames>
+    </foreign-key>
+    <foreign-key id="288" parent="71" name="FK__NhanVien__IdCV__29221CFB">
+      <ObjectId>690101499</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2023-03-24.21:39:31.313</CreatedTimestamp>
+      <ModifiedTimestamp>2023-03-24.21:39:31.313</ModifiedTimestamp>
+      <ColNames>IdCV</ColNames>
+      <RefTableId>581577110</RefTableId>
+      <RefTableName>ChucVu</RefTableName>
+      <RefKeyName>PK__ChucVu__3214EC07D6F80707</RefKeyName>
+      <RefColNames>Id</RefColNames>
+    </foreign-key>
+    <foreign-key id="289" parent="71" name="FK__NhanVien__IdCV__3F115E1A">
+      <ObjectId>1058102810</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2023-03-24.21:40:08.863</CreatedTimestamp>
+      <ModifiedTimestamp>2023-03-24.21:40:08.863</ModifiedTimestamp>
+      <ColNames>IdCV</ColNames>
+      <RefTableId>581577110</RefTableId>
+      <RefTableName>ChucVu</RefTableName>
+      <RefKeyName>PK__ChucVu__3214EC07D6F80707</RefKeyName>
+      <RefColNames>Id</RefColNames>
+    </foreign-key>
+    <foreign-key id="290" parent="71" name="FK__NhanVien__IdCV__7D439ABD">
+      <ObjectId>2101582525</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2023-03-24.21:38:57.280</CreatedTimestamp>
+      <ModifiedTimestamp>2023-03-24.21:38:57.280</ModifiedTimestamp>
+      <ColNames>IdCV</ColNames>
+      <RefTableId>581577110</RefTableId>
+      <RefTableName>ChucVu</RefTableName>
+      <RefKeyName>PK__ChucVu__3214EC07D6F80707</RefKeyName>
+      <RefColNames>Id</RefColNames>
+    </foreign-key>
+    <foreign-key id="291" parent="71" name="FK__NhanVien__IdGuiB__14270015">
+      <ObjectId>338100245</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2023-03-24.21:39:04.187</CreatedTimestamp>
+      <ModifiedTimestamp>2023-03-24.21:39:04.187</ModifiedTimestamp>
+      <ColNames>IdGuiBC</ColNames>
+      <RefTableId>789577851</RefTableId>
+      <RefTableName>NhanVien</RefTableName>
+      <RefKeyName>PK__NhanVien__3214EC0789CCA6E5</RefKeyName>
+      <RefColNames>Id</RefColNames>
+    </foreign-key>
+    <foreign-key id="292" parent="71" name="FK__NhanVien__IdGuiB__2A164134">
+      <ObjectId>706101556</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2023-03-24.21:39:31.317</CreatedTimestamp>
+      <ModifiedTimestamp>2023-03-24.21:39:31.317</ModifiedTimestamp>
+      <ColNames>IdGuiBC</ColNames>
+      <RefTableId>789577851</RefTableId>
+      <RefTableName>NhanVien</RefTableName>
+      <RefKeyName>PK__NhanVien__3214EC0789CCA6E5</RefKeyName>
+      <RefColNames>Id</RefColNames>
+    </foreign-key>
+    <foreign-key id="293" parent="71" name="FK__NhanVien__IdGuiB__40058253">
+      <ObjectId>1074102867</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2023-03-24.21:40:08.863</CreatedTimestamp>
+      <ModifiedTimestamp>2023-03-24.21:40:08.863</ModifiedTimestamp>
+      <ColNames>IdGuiBC</ColNames>
+      <RefTableId>789577851</RefTableId>
+      <RefTableName>NhanVien</RefTableName>
+      <RefKeyName>PK__NhanVien__3214EC0789CCA6E5</RefKeyName>
+      <RefColNames>Id</RefColNames>
+    </foreign-key>
+    <foreign-key id="294" parent="71" name="FK__NhanVien__IdGuiB__7E37BEF6">
+      <ObjectId>2117582582</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2023-03-24.21:38:57.283</CreatedTimestamp>
+      <ModifiedTimestamp>2023-03-24.21:38:57.283</ModifiedTimestamp>
+      <ColNames>IdGuiBC</ColNames>
+      <RefTableId>789577851</RefTableId>
+      <RefTableName>NhanVien</RefTableName>
+      <RefKeyName>PK__NhanVien__3214EC0789CCA6E5</RefKeyName>
+      <RefColNames>Id</RefColNames>
+    </foreign-key>
+    <default id="295" parent="71" name="DF__NhanVien__Id__31EC6D26">
+      <ObjectId>837578022</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2023-03-24.21:38:57.227</ModifiedTimestamp>
+      <ColNames>Id</ColNames>
+      <DefaultExpression>newid()</DefaultExpression>
+    </default>
+    <default id="296" parent="71" name="DF__NhanVien__Ten__32E0915F">
+      <ObjectId>853578079</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2023-03-24.21:38:57.227</ModifiedTimestamp>
+      <ColNames>Ten</ColNames>
+      <DefaultExpression>NULL</DefaultExpression>
+    </default>
+    <default id="297" parent="71" name="DF__NhanVien__TenDem__33D4B598">
+      <ObjectId>869578136</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2023-03-24.21:38:57.227</ModifiedTimestamp>
+      <ColNames>TenDem</ColNames>
+      <DefaultExpression>NULL</DefaultExpression>
+    </default>
+    <default id="298" parent="71" name="DF__NhanVien__Ho__34C8D9D1">
+      <ObjectId>885578193</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2023-03-24.21:38:57.230</ModifiedTimestamp>
+      <ColNames>Ho</ColNames>
+      <DefaultExpression>NULL</DefaultExpression>
+    </default>
+    <default id="299" parent="71" name="DF__NhanVien__GioiTi__35BCFE0A">
+      <ObjectId>901578250</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2023-03-24.21:38:57.230</ModifiedTimestamp>
+      <ColNames>GioiTinh</ColNames>
+      <DefaultExpression>NULL</DefaultExpression>
+    </default>
+    <default id="300" parent="71" name="DF__NhanVien__NgaySi__36B12243">
+      <ObjectId>917578307</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2023-03-24.21:38:57.230</ModifiedTimestamp>
+      <ColNames>NgaySinh</ColNames>
+      <DefaultExpression>NULL</DefaultExpression>
+    </default>
+    <default id="301" parent="71" name="DF__NhanVien__DiaChi__37A5467C">
+      <ObjectId>933578364</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2023-03-24.21:38:57.230</ModifiedTimestamp>
+      <ColNames>DiaChi</ColNames>
+      <DefaultExpression>NULL</DefaultExpression>
+    </default>
+    <default id="302" parent="71" name="DF__NhanVien__Sdt__38996AB5">
+      <ObjectId>949578421</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2023-03-24.21:38:57.230</ModifiedTimestamp>
+      <ColNames>Sdt</ColNames>
+      <DefaultExpression>NULL</DefaultExpression>
+    </default>
+    <default id="303" parent="71" name="DF__NhanVien__MatKha__398D8EEE">
+      <ObjectId>965578478</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2023-03-24.21:38:57.230</ModifiedTimestamp>
+      <ColNames>MatKhau</ColNames>
+      <DefaultExpression>NULL</DefaultExpression>
+    </default>
+    <default id="304" parent="71" name="DF__NhanVien__TrangT__3A81B327">
+      <ObjectId>981578535</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2023-03-24.21:38:57.230</ModifiedTimestamp>
+      <ColNames>TrangThai</ColNames>
+      <DefaultExpression>0</DefaultExpression>
+    </default>
+    <column id="305" parent="72" name="Id">
+      <Position>1</Position>
+      <DefaultConstraintName>DF__SanPham__Id__5EBF139D</DefaultConstraintName>
+      <DefaultExpression>newid()</DefaultExpression>
+      <DataType>uniqueidentifier|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="306" parent="72" name="Ma">
+      <Position>2</Position>
+      <DataType>varchar(20 char)|0s</DataType>
+    </column>
+    <column id="307" parent="72" name="Ten">
+      <Position>3</Position>
+      <DataType>nvarchar(30 char)|0s</DataType>
+    </column>
+    <index id="308" parent="72" name="PK__SanPham__3214EC0724280912">
+      <Position>1</Position>
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>Id</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <index id="309" parent="72" name="UQ__SanPham__3214CC9EEB376E47">
+      <Position>2</Position>
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>Ma</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="310" parent="72" name="PK__SanPham__3214EC0724280912">
+      <ObjectId>1557580587</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2023-03-24.21:38:57.250</CreatedTimestamp>
+      <ModifiedTimestamp>2023-03-24.21:38:57.250</ModifiedTimestamp>
+      <ColNames>Id</ColNames>
+      <UnderlyingIndexName>PK__SanPham__3214EC0724280912</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <key id="311" parent="72" name="UQ__SanPham__3214CC9EEB376E47">
+      <ObjectId>1573580644</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2023-03-24.21:38:57.250</CreatedTimestamp>
+      <ModifiedTimestamp>2023-03-24.21:38:57.250</ModifiedTimestamp>
+      <ColNames>Ma</ColNames>
+      <UnderlyingIndexName>UQ__SanPham__3214CC9EEB376E47</UnderlyingIndexName>
+    </key>
+    <default id="312" parent="72" name="DF__SanPham__Id__5EBF139D">
+      <ObjectId>1589580701</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2023-03-24.21:38:57.250</ModifiedTimestamp>
+      <ColNames>Id</ColNames>
+      <DefaultExpression>newid()</DefaultExpression>
+    </default>
+    <column id="313" parent="73" name="name">
+      <Position>1</Position>
+      <DataType>sysname|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="314" parent="73" name="principal_id">
+      <Position>2</Position>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="315" parent="73" name="diagram_id">
+      <Position>3</Position>
+      <SequenceIdentity>1</SequenceIdentity>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="316" parent="73" name="version">
+      <Position>4</Position>
+      <DataType>int|0s</DataType>
+    </column>
+    <column id="317" parent="73" name="definition">
+      <Position>5</Position>
+      <DataType>varbinary(max)|0s</DataType>
+    </column>
+    <index id="318" parent="73" name="PK__sysdiagr__C2B05B61943015D9">
+      <Position>1</Position>
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>diagram_id</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <index id="319" parent="73" name="UK_principal_name">
+      <Position>2</Position>
+      <ColNames>principal_id
+name</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="320" parent="73" name="PK__sysdiagr__C2B05B61943015D9">
+      <ObjectId>1330103779</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2023-03-24.23:03:47.407</CreatedTimestamp>
+      <ModifiedTimestamp>2023-03-24.23:03:47.407</ModifiedTimestamp>
+      <ColNames>diagram_id</ColNames>
+      <UnderlyingIndexName>PK__sysdiagr__C2B05B61943015D9</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <key id="321" parent="73" name="UK_principal_name">
+      <ObjectId>1346103836</ObjectId>
+      <CreatedTimestamp>2023-03-24.23:03:47.410</CreatedTimestamp>
+      <ModifiedTimestamp>2023-03-24.23:03:47.410</ModifiedTimestamp>
+      <ColNames>principal_id
+name</ColNames>
+      <UnderlyingIndexName>UK_principal_name</UnderlyingIndexName>
+    </key>
+    <argument id="322" parent="74">
+      <ArgumentDirection>R</ArgumentDirection>
+      <DataType>int|0s</DataType>
+    </argument>
+    <argument id="323" parent="75" name="@diagramname">
+      <Position>1</Position>
+      <DataType>sysname|0s</DataType>
+    </argument>
+    <argument id="324" parent="75" name="@owner_id">
+      <Position>2</Position>
+      <DataType>int|0s</DataType>
+    </argument>
+    <argument id="325" parent="75" name="@version">
+      <Position>3</Position>
+      <DataType>int|0s</DataType>
+    </argument>
+    <argument id="326" parent="75" name="@definition">
+      <Position>4</Position>
+      <DataType>varbinary(max)|0s</DataType>
+    </argument>
+    <argument id="327" parent="76" name="@diagramname">
+      <Position>1</Position>
+      <DataType>sysname|0s</DataType>
+    </argument>
+    <argument id="328" parent="76" name="@owner_id">
+      <Position>2</Position>
+      <DataType>int|0s</DataType>
+    </argument>
+    <argument id="329" parent="76" name="@version">
+      <Position>3</Position>
+      <DataType>int|0s</DataType>
+    </argument>
+    <argument id="330" parent="76" name="@definition">
+      <Position>4</Position>
+      <DataType>varbinary(max)|0s</DataType>
+    </argument>
+    <argument id="331" parent="77" name="@diagramname">
+      <Position>1</Position>
+      <DataType>sysname|0s</DataType>
+    </argument>
+    <argument id="332" parent="77" name="@owner_id">
+      <Position>2</Position>
+      <DataType>int|0s</DataType>
+    </argument>
+    <argument id="333" parent="78" name="@diagramname">
+      <Position>1</Position>
+      <DataType>sysname|0s</DataType>
+    </argument>
+    <argument id="334" parent="78" name="@owner_id">
+      <Position>2</Position>
+      <DataType>int|0s</DataType>
+    </argument>
+    <argument id="335" parent="79" name="@diagramname">
+      <Position>1</Position>
+      <DataType>sysname|0s</DataType>
+    </argument>
+    <argument id="336" parent="79" name="@owner_id">
+      <Position>2</Position>
+      <DataType>int|0s</DataType>
+    </argument>
+    <argument id="337" parent="80" name="@diagramname">
+      <Position>1</Position>
+      <DataType>sysname|0s</DataType>
+    </argument>
+    <argument id="338" parent="80" name="@owner_id">
+      <Position>2</Position>
+      <DataType>int|0s</DataType>
+    </argument>
+    <argument id="339" parent="80" name="@new_diagramname">
+      <Position>3</Position>
+      <DataType>sysname|0s</DataType>
+    </argument>
+  </database-model>
+</dataSource>
